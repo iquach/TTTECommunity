@@ -16,15 +16,13 @@
     <!--Cloud Thomas Pic-->
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="101dp"
+        android:paddingBottom="10dp"
+        android:layout_width="152dp"
+        android:layout_height="102dp"
         android:id="@+id/imageView"
-        android:background="@drawable/logo"
-        android:maxHeight="20dp"
-        android:maxWidth="15dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"/>
 
     <!--Youtube Button-->
 
@@ -33,12 +31,12 @@
         android:layout_height="200dp"
         android:layout_marginTop="25dp"
         android:id="@+id/thomas_face"
-        android:background="@drawable/thomas_main_homepage"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:onClick="goToSo"
         android:clickable="true"
-        android:autoLink="web"/>
+        android:autoLink="web"
+        android:background="@drawable/thomas_main_homepage"/>
 
     <!--Twitter Button-->
 
