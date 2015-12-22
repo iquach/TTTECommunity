@@ -10,10 +10,50 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.homepage"
-    tools:showIn="@layout/activity_homepage">
+    tools:showIn="@layout/activity_homepage"
+    android:background="@drawable/track_background">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <!--Cloud Thomas Pic-->
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="101dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/channel_logo"
+        android:maxHeight="20dp"
+        android:maxWidth="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!--Youtube Button-->
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/thomas_face"
+        android:background="@drawable/thomas_main_homepage"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToSo"
+        android:clickable="true"
+        android:autoLink="web"/>
+
+    <!--Twitter Button-->
+
+    <Button
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Follow Us on Twitter"
+        android:id="@+id/twitter_button"
+        android:background="#04bbf7"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/thomas_face"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="goToSu"
+        android:clickable="true"
+        android:autoLink="web"/>
+
 </RelativeLayout>
