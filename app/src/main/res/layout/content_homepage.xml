@@ -19,7 +19,7 @@
         android:layout_width="150dp"
         android:layout_height="101dp"
         android:id="@+id/imageView"
-        android:background="@drawable/channel_logo"
+        android:background="@drawable/logo"
         android:maxHeight="20dp"
         android:maxWidth="15dp"
         android:layout_alignParentTop="true"
