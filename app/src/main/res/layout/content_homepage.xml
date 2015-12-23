@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.homepage"
     tools:showIn="@layout/activity_homepage"
-    android:background="@drawable/track_background">
+    android:background="@drawable/track_ops">
 
     <!--Cloud Thomas Pic-->
 
@@ -36,7 +36,7 @@
         android:onClick="goToSo"
         android:clickable="true"
         android:autoLink="web"
-        android:background="@drawable/thomas_main_homepage"/>
+        android:background="@drawable/yt"/>
 
     <!--Twitter Button-->
 
