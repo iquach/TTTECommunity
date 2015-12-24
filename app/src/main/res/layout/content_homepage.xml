@@ -69,7 +69,7 @@
         android:layout_toStartOf="@+id/button3"
         android:layout_toLeftOf="@+id/button3"
         android:background="#f20505"
-        android:textColor="#f0e109" />
+        android:textColor="#f8e808" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
