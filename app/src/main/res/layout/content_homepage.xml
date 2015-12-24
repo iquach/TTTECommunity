@@ -34,7 +34,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:id="@+id/thomas_face"
-        android:onClick="goToSo"
+        android:onClick="goToYoutube"
         android:clickable="true"
         android:autoLink="web"
         android:src="@drawable/yt"
@@ -51,11 +51,13 @@
         android:id="@+id/twitter_button"
         android:background="#04bbf7"
         android:textColor="#ffffff"
-        android:onClick="goToSu"
+        android:onClick="goToTwitter"
         android:clickable="true"
         android:autoLink="web"
         android:layout_below="@+id/thomas_face"
         android:layout_centerHorizontal="true" />
+
+    <!--About Us Button-->
 
     <Button
         android:layout_width="wrap_content"
@@ -71,6 +73,8 @@
         android:background="#f20505"
         android:textColor="#f8e808" />
 
+    <!--Tutorial Button-->
+
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -85,6 +89,8 @@
         android:layout_alignLeft="@+id/button3"
         android:layout_alignStart="@+id/button3" />
 
+    <!--Contact Button-->
+
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -98,6 +104,8 @@
         android:layout_toStartOf="@+id/button4"
         android:textColor="#fefafa"
         android:background="#dc8306" />
+
+    <!--Admin Quiz-->
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -114,12 +122,17 @@
         android:background="#14e4d9"
         android:layout_below="@+id/tutorials_page_link" />
 
+    <!--Facebook-->
+
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Facebook"
         android:id="@+id/facebook"
+        android:onClick="goToFacebook"
+        android:clickable="true"
+        android:autoLink="web"
         android:layout_alignTop="@+id/tutorials_page_link"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -127,6 +140,8 @@
         android:textColor="#ffffff"
         android:layout_alignRight="@+id/about_us"
         android:layout_alignEnd="@+id/about_us" />
+
+    <!--Quiz Game-->
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -142,6 +157,5 @@
         android:layout_toRightOf="@+id/tutorials_page_link"
         android:layout_toEndOf="@+id/tutorials_page_link"
         android:layout_above="@+id/button3" />
-
 
 </RelativeLayout>

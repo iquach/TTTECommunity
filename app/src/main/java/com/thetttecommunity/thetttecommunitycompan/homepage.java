@@ -67,12 +67,18 @@ public class homepage extends AppCompatActivity {
         return true;
     }
 
-   public void goToSo (View view) {
+    // Methods that direct the user to the website.
+
+   public void goToYoutube (View view) {
        goToUrl("https://www.youtube.com/user/thetttecommunity/featured");
     }
 
-    public void goToSu(View view) {
+    public void goToTwitter(View view) {
         goToUrl("https://twitter.com/tttecommunity");
+    }
+
+    public void goToFacebook(View view) {
+        goToUrl("https://facebook.com/thetttecommunity");
     }
 
     private void goToUrl(String url) {
