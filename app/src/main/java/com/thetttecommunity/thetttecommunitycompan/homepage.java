@@ -81,6 +81,10 @@ public class homepage extends AppCompatActivity {
         goToUrl("https://facebook.com/thetttecommunity");
     }
 
+    public void goToPastP(View view) {
+        goToUrl("https://www.youtube.com/playlist?list=PL2oQR5EQqTgGr6qTtMXLKBqbTEd6PK3vV");
+    }
+
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
