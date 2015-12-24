@@ -13,30 +13,33 @@
     tools:showIn="@layout/activity_homepage"
     android:background="@drawable/track_ops">
 
+
     <!--Cloud Thomas Pic-->
 
     <ImageView
         android:paddingBottom="10dp"
-        android:layout_width="152dp"
-        android:layout_height="102dp"
-        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/logo_hd"
+        android:contentDescription="@string/app_logo"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
+        android:layout_alignParentStart="true" />
 
     <!--Youtube Button-->
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginTop="25dp"
         android:id="@+id/thomas_face"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
         android:onClick="goToSo"
         android:clickable="true"
         android:autoLink="web"
-        android:background="@drawable/yt"/>
+        android:src="@drawable/yt"
+        android:layout_marginTop="89dp"
+        android:layout_alignTop="@+id/logo"
+        android:layout_centerHorizontal="true" />
 
     <!--Twitter Button-->
 
@@ -47,11 +50,10 @@
         android:id="@+id/twitter_button"
         android:background="#04bbf7"
         android:textColor="#ffffff"
-        android:layout_below="@+id/thomas_face"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
         android:onClick="goToSu"
         android:clickable="true"
-        android:autoLink="web"/>
+        android:autoLink="web"
+        android:layout_below="@+id/thomas_face"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
