@@ -57,17 +57,91 @@
         android:layout_below="@+id/thomas_face"
         android:layout_centerHorizontal="true" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/textView"
-        android:text="The TTTE Community Channel is jointly operated by DieselD199, Enterprisingengine93, Sidekickjason and Percyengine619 and serves to bring the entire Thomas the Tank Engine Community here on YouTube together. Former admins Ucwepn.  "
-        android:textColor="#f60404"
+        android:text="About Us"
+        android:id="@+id/about_us"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#c4c3c3" />
+        android:layout_marginBottom="54dp"
+        android:layout_toStartOf="@+id/button3"
+        android:layout_toLeftOf="@+id/button3"
+        android:background="#f20505"
+        android:textColor="#f0e109" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorials"
+        android:id="@+id/tutorials_page_link"
+        android:layout_above="@+id/button3"
+        android:textColor="#fefdfd"
+        android:background="#12a23b"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/about_us"
+        android:layout_alignLeft="@+id/twitter_button"
+        android:layout_alignStart="@+id/twitter_button"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_toStartOf="@+id/button4"
+        android:textColor="#fefafa"
+        android:background="#dc8306" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Quiz"
+        android:id="@+id/button4"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/twitter_button"
+        android:layout_toRightOf="@+id/twitter_button"
+        android:textColor="#fefdfd"
+        android:background="#14e4d9"
+        android:layout_below="@+id/tutorials_page_link" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:id="@+id/facebook"
+        android:layout_alignTop="@+id/tutorials_page_link"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#114ef5"
+        android:textColor="#ffffff"
+        android:layout_alignRight="@+id/about_us"
+        android:layout_alignEnd="@+id/about_us" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Game"
+        android:id="@+id/quiz_game"
+        android:textColor="#fefdfd"
+        android:background="#c00ddf"
+        android:layout_alignTop="@+id/tutorials_page_link"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_toRightOf="@+id/tutorials_page_link"
+        android:layout_toEndOf="@+id/tutorials_page_link"
+        android:layout_above="@+id/button3" />
 
 
 </RelativeLayout>
