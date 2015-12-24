@@ -11,7 +11,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.homepage"
     tools:showIn="@layout/activity_homepage"
-    android:background="@drawable/track_ops">
+    android:background="@drawable/track_ops"
+    android:id="@+id/background">
 
 
     <!--Cloud Thomas Pic-->
@@ -62,10 +63,11 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/textView"
         android:text="The TTTE Community Channel is jointly operated by DieselD199, Enterprisingengine93, Sidekickjason and Percyengine619 and serves to bring the entire Thomas the Tank Engine Community here on YouTube together. Former admins Ucwepn.  "
-        android:textColor="#ffffff"
+        android:textColor="#f60404"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#c4c3c3" />
 
 
 </RelativeLayout>
