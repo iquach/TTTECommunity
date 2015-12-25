@@ -141,13 +141,16 @@
         android:layout_alignRight="@+id/about_us"
         android:layout_alignEnd="@+id/about_us" />
 
-    <!--Quiz Game-->
+    <!--Past Project-->
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Past Projects"
+        android:onClick="goToPastP"
+        android:clickable="true"
+        android:autoLink="web"
         android:id="@+id/past_projects"
         android:textColor="#fefdfd"
         android:background="#dfd50d"
