@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context="com.thetttecommunity.thetttecommunitycompan.AboutUs"
+    tools:showIn="@layout/activity_about_us">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#e1e1e1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="About Us"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="#fe0505"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DieselD199"
+                android:id="@+id/d199"
+                android:layout_below="@+id/about_us_id"
+                android:layout_toRightOf="@+id/about_us_id"
+                android:layout_toEndOf="@+id/about_us_id"
+                android:layout_marginTop="34dp"
+                android:textStyle="bold"
+                android:textColor="#0505f9"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/diesel_logo"
+                android:layout_alignTop="@+id/d199"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/dieseld199_logo_lite"
+                android:layout_toStartOf="@+id/about_us_id"
+                android:layout_toLeftOf="@+id/about_us_id"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Founder"
+                android:id="@+id/founder"
+                android:layout_below="@+id/d199"
+                android:layout_alignRight="@+id/d199"
+                android:layout_alignEnd="@+id/d199"
+                android:textStyle="bold"
+                android:textColor="#dac90a"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Director"
+                android:id="@+id/direct"
+                android:layout_below="@+id/founder"
+                android:layout_alignLeft="@+id/founder"
+                android:layout_alignStart="@+id/founder"
+                android:textColor="#0b17f7"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Editor"
+                android:id="@+id/editor"
+                android:layout_below="@+id/direct"
+                android:layout_alignRight="@+id/d199"
+                android:layout_alignEnd="@+id/d199"
+                android:textColor="#0b17f7"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Visual Video Editor"
+                android:id="@+id/video_editor"
+                android:layout_below="@+id/editor"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#0b17f7"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Final Authority of Clips"
+                android:id="@+id/clip_auth"
+                android:layout_below="@+id/video_editor"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#0b17f7"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="For those who don&apos;t know, since 2007 DieselD199 has been providing a range of videos to entertain the online community. He has, for the most part, focused on making parody videos of the popular children&apos;s television show, Thomas &amp; Friends."
+                android:id="@+id/description_199"
+                android:layout_marginTop="28dp"
+                android:layout_below="@+id/clip_auth"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#060606" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Enterprisingengine93"
+                android:id="@+id/ee93"
+                android:layout_below="@+id/description_199"
+                android:layout_alignRight="@+id/direct"
+                android:layout_alignEnd="@+id/direct"
+                android:layout_marginTop="29dp"
+                android:textStyle="bold"
+                android:textColor="#038f2d" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Co-Director"
+                android:id="@+id/co_direct"
+                android:layout_below="@+id/ee93"
+                android:layout_alignRight="@+id/clip_auth"
+                android:layout_alignEnd="@+id/clip_auth"
+                android:textColor="#038f2d" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Script-Writer"
+                android:id="@+id/script"
+                android:layout_below="@+id/co_direct"
+                android:layout_alignRight="@+id/ee93"
+                android:layout_alignEnd="@+id/ee93"
+                android:textColor="#038f2d" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Audio Director"
+                android:id="@+id/audioeditor"
+                android:layout_below="@+id/script"
+                android:layout_alignRight="@+id/script"
+                android:layout_alignEnd="@+id/script"
+                android:textColor="#FF038F2D" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="All of my work is based off of the Railway Series by the Reverend W. Awdry and Christopher Awdry, as well as the show adapted by Britt Allcroft and David Mitton! The stories, however, are of my own invention unless otherwise noted, with a lot of new and fun characters throughout"
+                android:id="@+id/ee93des"
+                android:layout_below="@+id/audioeditor"
+                android:layout_alignRight="@+id/co_direct"
+                android:layout_alignEnd="@+id/co_direct" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
