@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.Button;
 
 import com.squareup.picasso.Picasso;
 
@@ -24,12 +25,22 @@ public class homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
-        // Bottom two lines of code are for the Blue toolbar
+        Button aboutUs = (Button) findViewById(R.id.about_us);
+        aboutUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homepage.this, AboutUs.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    // Bottom two lines of code are for the Blue toolbar
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 
-        // This is whole method is for the floating mail button.
+    // This is whole method is for the floating mail button.
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +69,7 @@ public class homepage extends AppCompatActivity {
         Picasso.with(ivImage2.getContext()).load(R.drawable.yt_thumb)
                 .into(ivImage2);*/
 
-    }
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
