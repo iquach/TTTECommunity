@@ -11,7 +11,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.homepage"
     tools:showIn="@layout/activity_homepage"
-    android:background="@drawable/track_ops"
+    android:background="@drawable/tracks1"
     android:id="@+id/background">
 
 
