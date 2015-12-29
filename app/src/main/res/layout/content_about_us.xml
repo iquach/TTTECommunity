@@ -290,7 +290,7 @@
             android:layout_below="@+id/script"
             android:layout_alignRight="@+id/script"
             android:layout_alignEnd="@+id/script"
-            android:textColor="#007222"
+            android:textColor="#007232"
             android:layout_gravity="center_horizontal"/>
 
         <TextView
