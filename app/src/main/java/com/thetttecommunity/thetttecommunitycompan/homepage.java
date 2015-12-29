@@ -51,22 +51,14 @@ public class homepage extends AppCompatActivity {
 //            }
 //        });
 
-      /*  ivImage1 = (ImageView) findViewById(R.id.logo);
-        *//*Picasso.with(ivImage1.getContext())
-                .load(R.drawable.channel_logo)
-                .resize(500, 600)
-                .centerCrop()
-                .into(ivImage1);*//*
-       Picasso.with(ivImage1.getContext()).load(R.drawable.logo_small)
+/*        ivImage1 = (ImageView) findViewById(R.id.logo);
+
+       Picasso.with(ivImage1.getContext()).load(R.drawable.logo_hd)
                 .into(ivImage1);
 
         ivImage2 = (ImageView) findViewById(R.id.thomas_face);
-        *//*Picasso.with(ivImage2.getContext())
-                .load(R.drawable.yt_thumb)
-                .resize(200, 200)
-                .centerCrop()
-                .into(ivImage2);*//*
-        Picasso.with(ivImage2.getContext()).load(R.drawable.yt_thumb)
+
+        Picasso.with(ivImage2.getContext()).load(R.drawable.yt)
                 .into(ivImage2);*/
 
 //    }
