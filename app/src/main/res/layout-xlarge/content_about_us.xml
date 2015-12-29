@@ -128,7 +128,8 @@
                 android:layout_below="@+id/clip_auth"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:textColor="#060606" />
+                android:textColor="#060606"
+                android:layout_gravity="center_horizontal" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -190,6 +191,116 @@
                 android:layout_alignRight="@+id/co_direct"
                 android:layout_gravity="center_horizontal"
                 android:layout_alignEnd="@+id/co_direct" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Percyengine619"
+                android:id="@+id/pe619"
+                android:layout_below="@+id/ee93des"
+                android:layout_alignRight="@+id/direct"
+                android:layout_alignEnd="@+id/direct"
+                android:layout_marginTop="29dp"
+                android:textStyle="bold"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Website Creator/Manager"
+                android:id="@+id/website_creator"
+                android:layout_below="@+id/ee93"
+                android:layout_alignRight="@+id/clip_auth"
+                android:layout_alignEnd="@+id/clip_auth"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Twitter Creator/Manager"
+                android:id="@+id/twitt_creator"
+                android:layout_below="@+id/co_direct"
+                android:layout_alignRight="@+id/ee93"
+                android:layout_alignEnd="@+id/ee93"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Facebook Editor"
+                android:id="@+id/facebook_editor"
+                android:layout_below="@+id/script"
+                android:layout_alignRight="@+id/script"
+                android:layout_alignEnd="@+id/script"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Co-director"
+                android:id="@+id/co_direct2"
+                android:layout_below="@+id/script"
+                android:layout_alignRight="@+id/script"
+                android:layout_alignEnd="@+id/script"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Visual Video Editor"
+                android:id="@+id/vve"
+                android:layout_below="@+id/script"
+                android:layout_alignRight="@+id/script"
+                android:layout_alignEnd="@+id/script"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Private Invite-Only Manager"
+                android:id="@+id/ppiom"
+                android:layout_below="@+id/script"
+                android:layout_alignRight="@+id/script"
+                android:layout_alignEnd="@+id/script"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Audition Manager/Video Clip Manager"
+                android:id="@+id/amvcm"
+                android:layout_below="@+id/script"
+                android:layout_alignRight="@+id/script"
+                android:layout_alignEnd="@+id/script"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Head Clip Judge"
+                android:id="@+id/hcj"
+                android:layout_below="@+id/script"
+                android:layout_alignRight="@+id/script"
+                android:layout_alignEnd="@+id/script"
+                android:textColor="#007222"
+                android:layout_gravity="center_horizontal"/>
 
         </LinearLayout>
     </ScrollView>
