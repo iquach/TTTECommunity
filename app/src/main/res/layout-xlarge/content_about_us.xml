@@ -141,8 +141,8 @@
                 android:layout_alignEnd="@+id/direct"
                 android:layout_marginTop="29dp"
                 android:textStyle="bold"
-                android:textColor="#038f2d"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#038f2d" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -188,6 +188,7 @@
                 android:id="@+id/ee93des"
                 android:layout_below="@+id/audioeditor"
                 android:layout_alignRight="@+id/co_direct"
+                android:layout_gravity="center_horizontal"
                 android:layout_alignEnd="@+id/co_direct" />
 
         </LinearLayout>
