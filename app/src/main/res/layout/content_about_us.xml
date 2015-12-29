@@ -230,7 +230,7 @@
             android:layout_below="@+id/co_direct"
             android:layout_alignRight="@+id/ee93"
             android:layout_alignEnd="@+id/ee93"
-            android:textColor="#007232"
+            android:textColor="#007222"
             android:layout_gravity="center_horizontal"/>
 
         <TextView
