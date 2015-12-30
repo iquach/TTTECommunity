@@ -31,9 +31,9 @@
             android:text="About Us"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
-            android:textStyle="bold"
+            android:textStyle="bold|italic"
             android:textColor="#fe0505"
-            android:textSize="30dp" />
+            android:textSize="46dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -132,7 +132,7 @@
             android:layout_below="@+id/clip_auth"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:textColor="#060606" />
+            android:textColor="#030303" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -147,6 +147,15 @@
             android:textStyle="bold"
             android:textColor="#038f2d"
             android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/e393_logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/dieseld199_logo_lite"
+            android:layout_gravity="center_horizontal" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -181,7 +190,7 @@
             android:layout_below="@+id/script"
             android:layout_alignRight="@+id/script"
             android:layout_alignEnd="@+id/script"
-            android:textColor="#FF038F2D"
+            android:textColor="#038f2d"
             android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -190,10 +199,12 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="All of my work is based off of the Railway Series by the Reverend W. Awdry and Christopher Awdry, as well as the show adapted by Britt Allcroft and David Mitton! The stories, however, are of my own invention unless otherwise noted, with a lot of new and fun characters throughout"
             android:id="@+id/ee93des"
+            android:layout_marginTop="28dp"
             android:layout_below="@+id/audioeditor"
             android:layout_alignRight="@+id/co_direct"
             android:layout_alignEnd="@+id/co_direct"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:textColor="#030303" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -208,6 +219,15 @@
             android:textStyle="bold"
             android:textColor="#007222"
             android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pe619_logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/dieseld199_logo_lite"
+            android:layout_gravity="center_horizontal" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -290,7 +310,7 @@
             android:layout_below="@+id/script"
             android:layout_alignRight="@+id/script"
             android:layout_alignEnd="@+id/script"
-            android:textColor="#007232"
+            android:textColor="#007222"
             android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -303,6 +323,20 @@
             android:layout_alignRight="@+id/script"
             android:layout_alignEnd="@+id/script"
             android:textColor="#007222"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Remaking your favorite episodes with a different style.
+My style is towards a realistic set with most of the work going towards filming rather than editing. Just like the real Thomas The Tank Engine and Friends show seem to do in Season 1-7."
+            android:id="@+id/pe619_des"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/script"
+            android:layout_alignRight="@+id/script"
+            android:layout_alignEnd="@+id/script"
+            android:textColor="#020202"
             android:layout_gravity="center_horizontal"/>
 
 
