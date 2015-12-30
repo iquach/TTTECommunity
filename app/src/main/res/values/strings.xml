@@ -4,4 +4,34 @@
     <string name="app_logo">the ttte community logo</string>
     <string name="title_activity_about_us">AboutUs</string>
     <string name="title_activity_contact_us">Contact_us</string>
+    <string name="DieselD199">DieselD199</string>
+    <string name="aboutus">About Us</string>
+    <string name="founder">Founder</string>
+    <string name="director">Director</string>
+    <string name="editor">Main Editor</string>
+    <string name="visualvideoeditor">Visual Video Editor</string>
+    <string name="fac">Final Authority of Clips</string>
+    <string name="dieselD_des">For those who don&apos;t know, since 2007 DieselD199 has been
+        providing a range of videos to entertain the online community. He has, for the most part,
+        focused on making parody videos of the popular children&apos;s
+        television show, Thomas &amp; Friends.</string>
+    <string name="ee93_name">Enterprisingengine93</string>
+    <string name="co_director">Co-Director</string>
+    <string name="script_writer">Script-Writer</string>
+    <string name="audio_director">Audio Director</string>
+    <string name="ee93_des">All of my work is based off of the Railway Series by the
+        Reverend W. Awdry and Christopher Awdry, as well as the show adapted by Britt Allcroft
+        and David Mitton! The stories, however, are of my own invention unless otherwise noted,
+        with a lot of new and fun characters throughout</string>
+    <string name="pe619">Percyengine619</string>
+    <string name="website">Website Creator/Manager</string>
+    <string name="twittermanager">Twitter Creator/Manager</string>
+    <string name="Privat_Invite_Only_Manager">Private Invite-Only Manager</string>
+    <string name="Audition_Manager_Video_Clip_Manager">Audition Manager/Video Clip Manager</string>
+    <string name="facebookmanager">Facebook Manager</string>
+    <string name="Head_Clip_Judge">Head Clip Judge</string>
+    <string name="pe619_description">Remaking your favorite episodes with a different style.
+        My style is towards a realistic set with most of the work going towards
+        filming rather than editing. Just like the real Thomas The Tank Engine and Friends
+        show seem to do in Season 1-7.</string>
 </resources>
