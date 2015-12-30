@@ -264,6 +264,61 @@
             android:textColor="#020202"
             android:gravity="center_horizontal"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sidekickjason"
+            android:id="@+id/skj"
+            android:textColor="#f60411"
+            android:layout_marginTop="29dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/skj_logo"
+            android:contentDescription="@string/pe619"
+            android:background="@drawable/dieseld199_logo_lite"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/co_director"
+            android:id="@+id/co_direct3"
+            android:textColor="#f60411"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Facebook_creator"
+            android:id="@+id/facebook_creator"
+            android:textColor="#f60411"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/as_clip"
+            android:id="@+id/associateclip"
+            android:textColor="#f60411"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/skj_description"
+            android:id="@+id/skj_des"
+            android:layout_marginTop="28dp"
+            android:textColor="#020202"
+            android:gravity="center_horizontal"/>
 
     </LinearLayout>
 

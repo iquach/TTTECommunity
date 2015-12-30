@@ -11,10 +11,10 @@
     <string name="editor">Main Editor</string>
     <string name="visualvideoeditor">Visual Video Editor</string>
     <string name="fac">Final Authority of Clips</string>
-    <string name="dieselD_des">For those who don&apos;t know, since 2007 DieselD199 has been
+    <string name="dieselD_des">For those who don\'t know, since 2007 DieselD199 has been
         providing a range of videos to entertain the online community. He has, for the most part,
-        focused on making parody videos of the popular children&apos;s
-        television show, Thomas &amp; Friends.</string>
+        focused on making parody videos of the popular children\'s
+        television show, Thomas and Friends.</string>
     <string name="ee93_name">Enterprisingengine93</string>
     <string name="co_director">Co-Director</string>
     <string name="script_writer">Script-Writer</string>
@@ -34,4 +34,10 @@
         My style is towards a realistic set with most of the work going towards
         filming rather than editing. Just like the real Thomas The Tank Engine and Friends
         show seem to do in Season 1-7.</string>
+    <string name="sidekickjason">Sidekickjason</string>
+    <string name="Facebook_creator">Facebook Creator/Manager</string>
+    <string name="as_clip">Associate Clip Judge</string>
+    <string name="skj_description">Bringing the Island of Sodor to life like never before! Currently
+        we are broadcasting on new original Thomas and Friends
+        series made with Tomy TrackMaster engines.</string>
 </resources>
