@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,10 +8,6 @@
     android:orientation="vertical"
     tools:context="com.thetttecommunity.thetttecommunitycompan.AboutUs"
     tools:showIn="@layout/activity_about_us">
-
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -24,22 +20,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="About Us"
+                android:text="@string/aboutus"
                 android:id="@+id/textView"
                 android:layout_gravity="center_horizontal"
-                android:textStyle="bold"
+                android:textStyle="bold|italic"
                 android:textColor="#fe0505"
-                android:textSize="30dp" />
+                android:textSize="46sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="DieselD199"
+                android:text="@string/DieselD199"
                 android:id="@+id/d199"
-                android:layout_below="@+id/about_us_id"
-                android:layout_toRightOf="@+id/about_us_id"
-                android:layout_toEndOf="@+id/about_us_id"
                 android:layout_marginTop="34dp"
                 android:textStyle="bold"
                 android:textColor="#0505f9"
@@ -49,23 +42,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/diesel_logo"
-                android:layout_alignTop="@+id/d199"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:contentDescription="@string/DieselD199"
                 android:background="@drawable/dieseld199_logo_lite"
-                android:layout_toStartOf="@+id/about_us_id"
-                android:layout_toLeftOf="@+id/about_us_id"
                 android:layout_gravity="center_horizontal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Founder"
+                android:text="@string/founder"
                 android:id="@+id/founder"
-                android:layout_below="@+id/d199"
-                android:layout_alignRight="@+id/d199"
-                android:layout_alignEnd="@+id/d199"
                 android:textStyle="bold"
                 android:textColor="#dac90a"
                 android:layout_gravity="center_horizontal" />
@@ -74,11 +60,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Director"
+                android:text="@string/director"
                 android:id="@+id/direct"
-                android:layout_below="@+id/founder"
-                android:layout_alignLeft="@+id/founder"
-                android:layout_alignStart="@+id/founder"
                 android:textColor="#0b17f7"
                 android:layout_gravity="center_horizontal" />
 
@@ -86,11 +69,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Editor"
+                android:text="@string/editor"
                 android:id="@+id/editor"
-                android:layout_below="@+id/direct"
-                android:layout_alignRight="@+id/d199"
-                android:layout_alignEnd="@+id/d199"
                 android:textColor="#0b17f7"
                 android:layout_gravity="center_horizontal" />
 
@@ -98,11 +78,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Visual Video Editor"
+                android:text="@string/visualvideoeditor"
                 android:id="@+id/video_editor"
-                android:layout_below="@+id/editor"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
                 android:textColor="#0b17f7"
                 android:layout_gravity="center_horizontal" />
 
@@ -110,11 +87,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Final Authority of Clips"
+                android:text="@string/fac"
                 android:id="@+id/clip_auth"
-                android:layout_below="@+id/video_editor"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
                 android:textColor="#0b17f7"
                 android:layout_gravity="center_horizontal" />
 
@@ -122,111 +96,102 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="For those who don&apos;t know, since 2007 DieselD199 has been providing a range of videos to entertain the online community. He has, for the most part, focused on making parody videos of the popular children&apos;s television show, Thomas &amp; Friends."
+                android:text="@string/dieselD_des"
                 android:id="@+id/description_199"
                 android:layout_marginTop="28dp"
-                android:layout_below="@+id/clip_auth"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:textColor="#060606"
-                android:layout_gravity="center_horizontal" />
+                android:textColor="#030303"
+                android:gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Enterprisingengine93"
+                android:text="@string/ee93_name"
                 android:id="@+id/ee93"
-                android:layout_below="@+id/description_199"
-                android:layout_alignRight="@+id/direct"
-                android:layout_alignEnd="@+id/direct"
                 android:layout_marginTop="29dp"
                 android:textStyle="bold"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#038f2d" />
+                android:textColor="#038f2d"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="215dp"
+                android:id="@+id/e393_logo"
+                android:contentDescription="@string/ee93_name"
+                android:background="@drawable/logoee2"
+                android:layout_gravity="center_horizontal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Co-Director"
+                android:text="@string/co_director"
                 android:id="@+id/co_direct"
-                android:layout_below="@+id/ee93"
-                android:layout_alignRight="@+id/clip_auth"
-                android:layout_alignEnd="@+id/clip_auth"
                 android:textColor="#038f2d"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Script-Writer"
+                android:text="@string/script_writer"
                 android:id="@+id/script"
-                android:layout_below="@+id/co_direct"
-                android:layout_alignRight="@+id/ee93"
-                android:layout_alignEnd="@+id/ee93"
                 android:textColor="#038f2d"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Audio Director"
+                android:text="@string/audio_director"
                 android:id="@+id/audioeditor"
-                android:layout_below="@+id/script"
-                android:layout_alignRight="@+id/script"
-                android:layout_alignEnd="@+id/script"
-                android:textColor="#FF038F2D"
-                android:layout_gravity="center_horizontal" />
+                android:textColor="#038f2d"
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="All of my work is based off of the Railway Series by the Reverend W. Awdry and Christopher Awdry, as well as the show adapted by Britt Allcroft and David Mitton! The stories, however, are of my own invention unless otherwise noted, with a lot of new and fun characters throughout"
+                android:text="@string/ee93_des"
                 android:id="@+id/ee93des"
-                android:layout_below="@+id/audioeditor"
-                android:layout_alignRight="@+id/co_direct"
-                android:layout_gravity="center_horizontal"
-                android:layout_alignEnd="@+id/co_direct" />
+                android:layout_marginTop="28dp"
+                android:gravity="center_horizontal"
+                android:textColor="#030303" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Percyengine619"
+                android:text="@string/pe619"
                 android:id="@+id/pe619"
-                android:layout_below="@+id/ee93des"
-                android:layout_alignRight="@+id/direct"
-                android:layout_alignEnd="@+id/direct"
                 android:layout_marginTop="29dp"
                 android:textStyle="bold"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
 
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="215dp"
+                android:id="@+id/pe619_logo"
+                android:contentDescription="@string/pe619"
+                android:background="@drawable/icon_pe619"
+                android:layout_gravity="center_horizontal" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Website Creator/Manager"
+                android:text="@string/website"
                 android:id="@+id/website_creator"
-                android:layout_below="@+id/ee93"
-                android:layout_alignRight="@+id/clip_auth"
-                android:layout_alignEnd="@+id/clip_auth"
-                android:textColor="#007222"
+                android:textColor="#000072"
                 android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Twitter Creator/Manager"
+                android:text="@string/twittermanager"
                 android:id="@+id/twitt_creator"
-                android:layout_below="@+id/co_direct"
-                android:layout_alignRight="@+id/ee93"
-                android:layout_alignEnd="@+id/ee93"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
 
@@ -234,11 +199,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Facebook Editor"
+                android:text="@string/facebookmanager"
                 android:id="@+id/facebook_editor"
-                android:layout_below="@+id/script"
-                android:layout_alignRight="@+id/script"
-                android:layout_alignEnd="@+id/script"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
 
@@ -246,11 +208,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Co-director"
+                android:text="@string/co_director"
                 android:id="@+id/co_direct2"
-                android:layout_below="@+id/script"
-                android:layout_alignRight="@+id/script"
-                android:layout_alignEnd="@+id/script"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
 
@@ -258,11 +217,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Visual Video Editor"
+                android:text="@string/fac"
                 android:id="@+id/vve"
-                android:layout_below="@+id/script"
-                android:layout_alignRight="@+id/script"
-                android:layout_alignEnd="@+id/script"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
 
@@ -270,11 +226,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Private Invite-Only Manager"
+                android:text="@string/Privat_Invite_Only_Manager"
                 android:id="@+id/ppiom"
-                android:layout_below="@+id/script"
-                android:layout_alignRight="@+id/script"
-                android:layout_alignEnd="@+id/script"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
 
@@ -282,11 +235,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Audition Manager/Video Clip Manager"
+                android:text="@string/Audition_Manager_Video_Clip_Manager"
                 android:id="@+id/amvcm"
-                android:layout_below="@+id/script"
-                android:layout_alignRight="@+id/script"
-                android:layout_alignEnd="@+id/script"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
 
@@ -294,16 +244,78 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Head Clip Judge"
+                android:text="@string/Head_Clip_Judge"
                 android:id="@+id/hcj"
-                android:layout_below="@+id/script"
-                android:layout_alignRight="@+id/script"
-                android:layout_alignEnd="@+id/script"
                 android:textColor="#007222"
                 android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/pe619_description"
+                android:id="@+id/pe619_des"
+                android:layout_marginTop="28dp"
+                android:textColor="#020202"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/sidekickjason"
+                android:id="@+id/skj"
+                android:textColor="#f60411"
+                android:layout_marginTop="29dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="215dp"
+                android:id="@+id/skj_logo"
+                android:contentDescription="@string/pe619"
+                android:background="@drawable/skj_logo_icon"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/co_director"
+                android:id="@+id/co_direct3"
+                android:textColor="#f60411"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Facebook_creator"
+                android:id="@+id/facebook_creator"
+                android:textColor="#f60411"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/as_clip"
+                android:id="@+id/associateclip"
+                android:textColor="#f60411"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/skj_description"
+                android:id="@+id/skj_des"
+                android:layout_marginTop="28dp"
+                android:textColor="#020202"
+                android:gravity="center_horizontal"/>
+
 
         </LinearLayout>
-    </ScrollView>
 
-
-</RelativeLayout>
+</ScrollView>
