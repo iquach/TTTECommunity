@@ -89,6 +89,10 @@ public class homepage extends AppCompatActivity {
         goToUrl("https://www.youtube.com/playlist?list=PL2oQR5EQqTgGr6qTtMXLKBqbTEd6PK3vV");
     }
 
+    public void goToWaitList(View view) {
+        goToUrl("https://tttecommunity.wufoo.com/forms/z153ewir184yych");
+    }
+
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
