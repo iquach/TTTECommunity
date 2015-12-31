@@ -119,11 +119,11 @@
             android:layout_gravity="center_horizontal"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="204dp"
+            android:layout_height="215dp"
             android:id="@+id/e393_logo"
             android:contentDescription="@string/ee93_name"
-            android:background="@drawable/dieseld199_logo_lite"
+            android:background="@drawable/Ee93logo2"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -175,11 +175,11 @@
             android:layout_gravity="center_horizontal"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="204dp"
+            android:layout_height="215dp"
             android:id="@+id/pe619_logo"
             android:contentDescription="@string/pe619"
-            android:background="@drawable/dieseld199_logo_lite"
+            android:background="@drawable/icon_pe619"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -188,7 +188,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/website"
             android:id="@+id/website_creator"
-            android:textColor="#007222"
+            android:textColor="#000072"
             android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -276,11 +276,11 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="204dp"
+            android:layout_height="215dp"
             android:id="@+id/skj_logo"
             android:contentDescription="@string/pe619"
-            android:background="@drawable/dieseld199_logo_lite"
+            android:background="@drawable/skj_logo_icon"
             android:layout_gravity="center_horizontal" />
 
         <TextView
