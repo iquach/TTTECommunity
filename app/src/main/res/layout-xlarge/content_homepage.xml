@@ -71,13 +71,13 @@
         android:text="@string/aboutus"
         android:id="@+id/about_us"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_marginBottom="54dp"
-        android:layout_toStartOf="@+id/button3"
-        android:layout_toLeftOf="@+id/button3"
         android:background="#f20505"
-        android:textColor="#f8e808" />
+        android:textColor="#f8e808"
+        android:layout_alignRight="@+id/Social_media"
+        android:layout_alignEnd="@+id/Social_media"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <!--Tutorial Button-->
 
@@ -91,10 +91,10 @@
         android:background="#12a23b"
         android:layout_marginBottom="55dp"
         android:layout_above="@+id/button4"
-        android:layout_toLeftOf="@+id/button4"
         android:layout_toStartOf="@id/button4"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
 
     <!--Contact Button-->
 
@@ -107,10 +107,8 @@
         android:textColor="#fefafa"
         android:background="#dc8306"
         android:layout_above="@+id/facebook"
-        android:layout_alignLeft="@+id/twitter_button"
         android:layout_alignStart="@+id/twitter_button"
         android:layout_marginBottom="51dp"
-        android:layout_alignRight="@+id/twitter_button"
         android:layout_alignEnd="@+id/twitter_button" />
 
     <!--Admin Quiz-->
@@ -124,10 +122,10 @@
         android:textColor="#fefdfd"
         android:background="#14e4d9"
         android:layout_alignTop="@+id/about_us"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/twitter_button"
-        android:layout_toEndOf="@+id/twitter_button" />
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
 
     <!--Facebook-->
 
@@ -143,11 +141,11 @@
         android:background="#114ef5"
         android:textColor="#ffffff"
         android:layout_above="@+id/tutorials_page_link"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_marginBottom="67dp"
         android:layout_alignRight="@+id/about_us"
-        android:layout_alignEnd="@+id/about_us" />
+        android:layout_alignEnd="@+id/about_us"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <!--Past Project-->
 
@@ -162,10 +160,75 @@
         android:id="@+id/past_projects"
         android:textColor="#fefdfd"
         android:background="#dfd50d"
-        android:layout_alignTop="@+id/facebook"
-        android:layout_toRightOf="@+id/tutorials_page_link"
-        android:layout_toEndOf="@+id/tutorials_page_link"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4" />
+        android:layout_alignTop="@+id/twitter_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/wikia"
+        android:layout_alignEnd="@+id/wikia" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/waitlist"
+        android:onClick="goToWaitList"
+        android:clickable="true"
+        android:autoLink="web"
+        android:id="@+id/waitlist"
+        android:background="#1305b0"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/button3"
+        android:layout_toStartOf="@id/button4"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <!--Wikia Page-->
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wikia"
+        android:onClick="goToPastP"
+        android:clickable="true"
+        android:autoLink="web"
+        android:id="@+id/wikia"
+        android:textColor="#000000"
+        android:background="#09f440"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/facebook"
+        android:layout_alignEnd="@+id/facebook" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/socialmedia"
+        android:onClick="goToPastP"
+        android:clickable="true"
+        android:autoLink="web"
+        android:id="@+id/Social_media"
+        android:textColor="#000000"
+        android:background="#fef603"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/twitter_button"
+        android:layout_toLeftOf="@+id/tutorials_page_link"
+        android:layout_marginRight="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/button3"
+        android:layout_alignRight="@+id/thomas_face"
+        android:layout_alignEnd="@+id/thomas_face" />
+
 
 </RelativeLayout>

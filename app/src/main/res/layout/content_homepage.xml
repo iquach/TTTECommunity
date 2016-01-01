@@ -41,7 +41,11 @@
         android:src="@drawable/yt"
         android:layout_marginTop="105dp"
         android:layout_alignTop="@+id/logo"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/twitter_button"
+        android:layout_alignRight="@+id/past_projects"
+        android:layout_alignEnd="@+id/past_projects"
+        android:layout_alignLeft="@+id/logo"
+        android:layout_alignStart="@+id/logo" />
 
     <!--Twitter Button-->
 
@@ -55,7 +59,8 @@
         android:onClick="goToTwitter"
         android:clickable="true"
         android:autoLink="web"
-        android:layout_below="@+id/thomas_face"
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/tutorials_page_link"
         android:layout_centerHorizontal="true" />
 
     <!--About Us Button-->
@@ -162,6 +167,8 @@
         android:layout_toEndOf="@+id/tutorials_page_link"
         android:layout_above="@+id/button3" />
 
+    <!--Waitlist-->
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -177,5 +184,47 @@
         android:layout_toStartOf="@id/button4"
         android:layout_alignLeft="@+id/button3"
         android:layout_alignStart="@+id/button3" />
+
+    <!--Wikia Page-->
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wikia"
+        android:onClick="goToPastP"
+        android:clickable="true"
+        android:autoLink="web"
+        android:id="@+id/wikia"
+        android:textColor="#000000"
+        android:background="#09f440"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/socialmedia"
+        android:onClick="goToPastP"
+        android:clickable="true"
+        android:autoLink="web"
+        android:id="@+id/Social_media"
+        android:textColor="#000000"
+        android:background="#fef603"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/about_us"
+        android:layout_alignStart="@+id/about_us"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
 
 </RelativeLayout>

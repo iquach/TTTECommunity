@@ -4,7 +4,9 @@
     <string name="app_logo">the ttte community logo</string>
     <string name="title_activity_about_us">AboutUs</string>
     <string name="title_activity_contact_us">Contact_us</string>
+    <string name="Follow_Us_on_Twitter">Follow Us on Twitter</string>
     <string name="DieselD199">DieselD199</string>
+    <string name="socialmedia">Admins' Social Media</string>
     <string name="aboutus">About Us</string>
     <string name="founder">Founder</string>
     <string name="director">Director</string>
@@ -35,6 +37,7 @@
     <string name="adminquiz">Admin Quiz</string>
     <string name="facebook">Facebook</string>
     <string name="waitlist">Waitlist</string>
+    <string name="wikia">The Official Wikia</string>
     <string name="pastprojects">Past Projects</string>
     <string name="Follow_Us_on_Twitter">Follow Us on Twitter</string>
     <string name="pe619_description">Remaking your favorite episodes with a different style.
