@@ -30,6 +30,13 @@
     <string name="Audition_Manager_Video_Clip_Manager">Audition Manager/Video Clip Manager</string>
     <string name="facebookmanager">Facebook Manager</string>
     <string name="Head_Clip_Judge">Head Clip Judge</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="contact">Contact</string>
+    <string name="adminquiz">Admin Quiz</string>
+    <string name="facebook">Facebook</string>
+    <string name="waitlist">Waitlist</string>
+    <string name="pastprojects">Past Projects</string>
+    <string name="Follow_Us_on_Twitter">Follow Us on Twitter</string>
     <string name="pe619_description">Remaking your favorite episodes with a different style.
         My style is towards a realistic set with most of the work going towards
         filming rather than editing. Just like the real Thomas The Tank Engine and Friends
