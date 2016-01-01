@@ -162,7 +162,7 @@
         android:layout_toEndOf="@+id/tutorials_page_link"
         android:layout_above="@+id/button3" />
 
-    <!--Wait List button-->
+    <!--Wait List buttons-->
 
     <Button
         android:layout_width="wrap_content"
