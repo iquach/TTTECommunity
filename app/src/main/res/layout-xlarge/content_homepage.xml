@@ -15,6 +15,7 @@
     android:id="@+id/background">
 
 
+    <!--Text-->
     <!--Cloud Thomas Pic-->
 
     <ImageView
