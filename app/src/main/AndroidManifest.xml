@@ -23,6 +23,10 @@
             android:name=".AboutUs"
             android:label="@string/title_activity_about_us"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SocialMedaPage"
+            android:label="@string/title_activity_social_meda_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
