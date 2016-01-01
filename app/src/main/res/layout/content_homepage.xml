@@ -39,14 +39,17 @@
         android:clickable="true"
         android:autoLink="web"
         android:src="@drawable/yt"
-        android:layout_marginTop="105dp"
-        android:layout_alignTop="@+id/logo"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/twitter_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="29dp"
+        android:layout_alignRight="@+id/past_projects"
+        android:layout_alignEnd="@+id/past_projects" />
 
     <!--Twitter Button-->
 
     <Button
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="@string/Follow_Us_on_Twitter"
         android:id="@+id/twitter_button"
@@ -55,8 +58,9 @@
         android:onClick="goToTwitter"
         android:clickable="true"
         android:autoLink="web"
-        android:layout_below="@+id/thomas_face"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/tutorials_page_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
 
     <!--About Us Button-->
 
@@ -142,6 +146,25 @@
         android:layout_alignRight="@+id/about_us"
         android:layout_alignEnd="@+id/about_us" />
 
+    <!--Social Media Page-->
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/socialmedia"
+        android:id="@+id/socialmedia"
+        android:onClick="goToFacebook"
+        android:clickable="true"
+        android:autoLink="web"
+        android:background="#fef901"
+        android:textColor="#030000"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/waitlist"
+        android:layout_toStartOf="@+id/waitlist" />
+
     <!--Past Project-->
 
     <Button
@@ -161,6 +184,25 @@
         android:layout_toRightOf="@+id/tutorials_page_link"
         android:layout_toEndOf="@+id/tutorials_page_link"
         android:layout_above="@+id/button3" />
+
+    <!--The Official Wikia-->
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wikia"
+        android:onClick="goToPastP"
+        android:clickable="true"
+        android:autoLink="web"
+        android:id="@+id/wikia"
+        android:textColor="#fefdfd"
+        android:background="#b80ddf"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/waitlist"
+        android:layout_toEndOf="@+id/waitlist" />
 
     <!--Wait List buttons-->
 
