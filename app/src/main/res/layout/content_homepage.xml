@@ -192,7 +192,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/wikia"
-        android:onClick="goToPastP"
+        android:onClick="goToWiki"
         android:clickable="true"
         android:autoLink="web"
         android:id="@+id/wikia"

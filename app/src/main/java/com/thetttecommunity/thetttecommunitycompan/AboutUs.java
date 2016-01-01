@@ -1,5 +1,7 @@
 package com.thetttecommunity.thetttecommunitycompan;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -25,6 +27,27 @@ public class AboutUs extends AppCompatActivity {
 //                        .setAction("Action", null).show();
 //            }
 //        });
+    }
+    public void goToDiesel(View view) {
+        goToUrl("https://www.youtube.com/user/DieselD199");
+    }
+
+    public void goToEnterprising(View view) {
+        goToUrl("https://www.youtube.com/user/Enterprisingengine93");
+    }
+
+    public void goToPengine(View view) {
+        goToUrl("https://www.youtube.com/user/Percyengine619");
+    }
+
+    public void goToSideKick(View view) {
+        goToUrl("https://www.youtube.com/user/Sidekickjason");
+    }
+
+    private void goToUrl(String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
     }
 
 }

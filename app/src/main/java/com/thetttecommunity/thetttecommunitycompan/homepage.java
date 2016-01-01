@@ -93,6 +93,10 @@ public class homepage extends AppCompatActivity {
         goToUrl("https://tttecommunity.wufoo.com/forms/z153ewir184yych");
     }
 
+    public void goToWiki(View view) {
+        goToUrl("http://the-ttte-community.wikia.com/wiki/The_TTTE_Community_Wiki");
+    }
+
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
