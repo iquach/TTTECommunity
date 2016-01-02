@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,6 +10,228 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.SocialMedaPage"
-    tools:showIn="@layout/activity_social_meda_page">
+    tools:showIn="@layout/activity_social_meda_page"
+    android:background="@drawable/tracks1">
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/title_admins"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/title_logo"
+            android:contentDescription="@string/app_logo" />
+
+
+        <TextView
+            android:id="@+id/d1992"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="34dp"
+            android:text="@string/dieselD199_underline"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fee102"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:autoText="true"
+            android:background="#fb0505" />
+
+        <ImageButton
+            android:id="@+id/facebookDiesel"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12sp"
+            android:background="@drawable/facebook_logo"
+            android:contentDescription="@string/DieselD199" />
+
+        <ImageView
+            android:id="@+id/twitterDiesel"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/twitter_logo"
+            android:contentDescription="@string/DieselD199" />
+
+        <ImageButton
+            android:id="@+id/insta"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/instagram"
+            android:contentDescription="@string/DieselD199" />
+
+        <ImageButton
+            android:id="@+id/tumbler"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/tumblr_logo"
+            android:contentDescription="@string/DieselD199" />
+
+        <ImageButton
+            android:id="@+id/googleplusdiesel"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/google_plus"
+            android:contentDescription="@string/DieselD199" />
+
+        <TextView
+            android:id="@+id/ee93name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="34dp"
+            android:text="@string/ee93_name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#02fe24"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:background="#040404" />
+
+        <ImageButton
+            android:id="@+id/facebookee93"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12sp"
+            android:background="@drawable/facebook_logo"
+            android:contentDescription="@string/ee93_name" />
+
+        <ImageView
+            android:id="@+id/twitteree93"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/twitter_logo"
+            android:contentDescription="@string/ee93_name" />
+
+        <ImageView
+            android:id="@+id/wikiaee93"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/wikia_logo"
+            android:contentDescription="@string/ee93_name" />
+
+        <ImageButton
+            android:id="@+id/googleplusee93"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/google_plus"
+            android:contentDescription="@string/ee93_name" />
+
+        <TextView
+            android:id="@+id/pe619ame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="34dp"
+            android:background="#049c0c"
+            android:text="@string/pe619"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fefefe"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/twitterpe619"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/twitter_logo"
+            android:contentDescription="@string/pe619" />
+
+        <ImageView
+            android:id="@+id/bloggerpe619"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/bloggerlogo"
+            android:contentDescription="@string/pe619" />
+
+        <ImageView
+            android:id="@+id/dailype619"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/dailymotion_logo"
+            android:contentDescription="@string/pe619" />
+
+        <ImageButton
+            android:id="@+id/googlepluspe619"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/google_plus"
+            android:contentDescription="@string/pe619" />
+
+        <TextView
+            android:id="@+id/skjname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="34dp"
+            android:text="@string/sidekickjason"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#084ea5"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/facebookskj"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12sp"
+            android:background="@drawable/facebook_logo"
+            android:contentDescription="@string/sidekickjason" />
+
+        <ImageView
+            android:id="@+id/twitterskj"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/twitter_logo"
+            android:contentDescription="@string/sidekickjason" />
+
+        <ImageView
+            android:id="@+id/bloggerskj"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/bloggerlogo"
+            android:contentDescription="@string/sidekickjason" />
+
+        <ImageButton
+            android:id="@+id/googleplusskj"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/google_plus"
+            android:contentDescription="@string/sidekickjason" />
+
+    </LinearLayout>
+</ScrollView>
