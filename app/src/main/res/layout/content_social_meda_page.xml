@@ -27,19 +27,14 @@
             android:contentDescription="@string/app_logo" />
 
 
-        <TextView
-            android:id="@+id/d1992"
+        <ImageView
+            android:id="@+id/d1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/DieselD199"
             android:layout_marginTop="34dp"
-            android:text="@string/dieselD199_underline"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#fee102"
-            android:textSize="36sp"
-            android:textStyle="bold|italic"
-            android:autoText="true"
-            android:background="#fb0505" />
+            android:background="@drawable/diesel_font" />
 
         <ImageButton
             android:id="@+id/facebookDiesel"
@@ -86,18 +81,14 @@
             android:background="@drawable/google_plus"
             android:contentDescription="@string/DieselD199" />
 
-        <TextView
-            android:id="@+id/ee93name"
+        <ImageView
+            android:id="@+id/ee93_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/DieselD199"
             android:layout_marginTop="34dp"
-            android:text="@string/ee93_name"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#02fe24"
-            android:textSize="36sp"
-            android:textStyle="bold|italic"
-            android:background="#040404" />
+            android:background="@drawable/enterprisingengine_font" />
 
         <ImageButton
             android:id="@+id/facebookee93"
@@ -135,18 +126,14 @@
             android:background="@drawable/google_plus"
             android:contentDescription="@string/ee93_name" />
 
-        <TextView
-            android:id="@+id/pe619ame"
+        <ImageView
+            android:id="@+id/pe619_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/pe619"
             android:layout_marginTop="34dp"
-            android:background="#049c0c"
-            android:text="@string/pe619"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#fefefe"
-            android:textSize="36sp"
-            android:textStyle="bold|italic" />
+            android:background="@drawable/pe619_font" />
 
         <ImageView
             android:id="@+id/twitterpe619"
@@ -184,18 +171,14 @@
             android:background="@drawable/google_plus"
             android:contentDescription="@string/pe619" />
 
-        <TextView
-            android:id="@+id/skjname"
+        <ImageView
+            android:id="@+id/skj_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/skj_description"
             android:layout_marginTop="34dp"
-            android:text="@string/sidekickjason"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#084ea5"
-            android:textSize="36sp"
-            android:textStyle="bold|italic"
-            android:background="#ffffff" />
+            android:background="@drawable/skj_font" />
 
         <ImageButton
             android:id="@+id/facebookskj"
