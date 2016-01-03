@@ -12,7 +12,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.thetttecommunity.thetttecommunitycompan.SocialMedaPage"
     tools:showIn="@layout/activity_social_meda_page"
-    android:background="#4d1111">
+    android:id="@+id/background1"
+    android:background="@drawable/tracks1">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -26,7 +27,6 @@
             android:adjustViewBounds="false"
             android:contentDescription="@string/app_logo" />
 
-
         <ImageView
             android:id="@+id/d1"
             android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
 
         <ImageButton
             android:id="@+id/facebookDiesel"
-            android:layout_width="170dp"
+            android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12sp"
@@ -45,7 +45,7 @@
 
         <ImageButton
             android:id="@+id/twitterdiesel"
-            android:layout_width="170dp"
+            android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
@@ -53,7 +53,7 @@
 
         <ImageButton
             android:id="@+id/insta"
-            android:layout_width="170dp"
+            android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
@@ -61,11 +61,142 @@
 
         <ImageButton
             android:id="@+id/tumbler"
-            android:layout_width="170dp"
+            android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
             android:contentDescription="@string/DieselD199" />
+
+
+        <ImageButton
+            android:id="@+id/googleplusdiesel"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/DieselD199" />
+
+
+        <ImageView
+            android:id="@+id/ee93name"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/DieselD199"
+            android:layout_marginTop="34dp" />
+
+        <ImageButton
+            android:id="@+id/facebookee93"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12sp"
+            android:contentDescription="@string/ee93_name" />
+
+        <ImageButton
+            android:id="@+id/twitteree93"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/ee93_name" />
+
+        <ImageButton
+            android:id="@+id/wikiaee93"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/ee93_name" />
+
+        <ImageButton
+            android:id="@+id/googleplusee93"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/ee93_name" />
+
+        <ImageView
+            android:id="@+id/pe619_name"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/DieselD199"
+            android:layout_marginTop="34dp" />
+
+        <ImageButton
+            android:id="@+id/twitterpe619"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/pe619" />
+
+        <ImageButton
+            android:id="@+id/bloggerpe619"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/pe619" />
+
+        <ImageButton
+            android:id="@+id/dailype619"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/pe619" />
+
+        <ImageButton
+            android:id="@+id/googlepluspe619"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/pe619" />
+
+        <ImageView
+            android:id="@+id/skj_name"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/skj_description"
+            android:layout_marginTop="34dp" />
+
+        <ImageButton
+            android:id="@+id/facebookskj"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12sp"
+            android:contentDescription="@string/sidekickjason" />
+
+        <ImageButton
+            android:id="@+id/twitterskj"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/sidekickjason" />
+
+        <ImageButton
+            android:id="@+id/bloggerskj"
+            android:layout_width="190dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/sidekickjason" />
+
+        <ImageButton
+            android:id="@+id/googleplusskj"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/sidekickjason" />
+
 
     </LinearLayout>
 </ScrollView>
