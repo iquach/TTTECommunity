@@ -46,7 +46,5 @@
             android:background="@drawable/facebook_logo"
             android:contentDescription="@string/DieselD199" />
 
-
-
     </LinearLayout>
 </ScrollView>
