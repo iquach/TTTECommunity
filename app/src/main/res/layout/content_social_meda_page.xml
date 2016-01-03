@@ -24,7 +24,6 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:adjustViewBounds="false"
-            android:background="@drawable/title_logo"
             android:contentDescription="@string/app_logo" />
 
 
@@ -34,8 +33,7 @@
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/DieselD199"
-            android:layout_marginTop="34dp"
-            android:background="@drawable/diesel_font" />
+            android:layout_marginTop="34dp" />
 
         <ImageButton
             android:id="@+id/facebookDiesel"
@@ -43,7 +41,30 @@
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12sp"
-            android:background="@drawable/facebook_logo"
+            android:contentDescription="@string/DieselD199" />
+
+        <ImageButton
+            android:id="@+id/twitterdiesel"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/DieselD199" />
+
+        <ImageButton
+            android:id="@+id/insta"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
+            android:contentDescription="@string/DieselD199" />
+
+        <ImageButton
+            android:id="@+id/tumbler"
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8sp"
             android:contentDescription="@string/DieselD199" />
 
     </LinearLayout>
