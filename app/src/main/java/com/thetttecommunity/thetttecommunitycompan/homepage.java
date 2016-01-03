@@ -26,6 +26,15 @@ public class homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
+        Button social = (Button) findViewById(R.id.social_Media);
+        social.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homepage.this, SocialMedaPage.class);
+                startActivity(intent);
+            }
+        });
+
         Button aboutUs = (Button) findViewById(R.id.about_us);
         aboutUs.setOnClickListener(new View.OnClickListener() {
             @Override
