@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.SocialMedaPage"
     tools:showIn="@layout/activity_social_meda_page"
-    android:background="@drawable/tracks1">
+    android:background="#4d1111">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -45,176 +46,7 @@
             android:background="@drawable/facebook_logo"
             android:contentDescription="@string/DieselD199" />
 
-        <ImageView
-            android:id="@+id/twitterDiesel"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/twitter_logo"
-            android:contentDescription="@string/DieselD199" />
 
-        <ImageButton
-            android:id="@+id/insta"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/instagram"
-            android:contentDescription="@string/DieselD199" />
-
-        <ImageButton
-            android:id="@+id/tumbler"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/tumblr_logo"
-            android:contentDescription="@string/DieselD199" />
-
-        <ImageButton
-            android:id="@+id/googleplusdiesel"
-            android:layout_width="100dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/google_plus"
-            android:contentDescription="@string/DieselD199" />
-
-        <ImageView
-            android:id="@+id/ee93_name"
-            android:layout_width="wrap_content"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/DieselD199"
-            android:layout_marginTop="34dp"
-            android:background="@drawable/enterprisingengine_font" />
-
-        <ImageButton
-            android:id="@+id/facebookee93"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="12sp"
-            android:background="@drawable/facebook_logo"
-            android:contentDescription="@string/ee93_name" />
-
-        <ImageView
-            android:id="@+id/twitteree93"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/twitter_logo"
-            android:contentDescription="@string/ee93_name" />
-
-        <ImageView
-            android:id="@+id/wikiaee93"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/wikia_logo"
-            android:contentDescription="@string/ee93_name" />
-
-        <ImageButton
-            android:id="@+id/googleplusee93"
-            android:layout_width="100dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/google_plus"
-            android:contentDescription="@string/ee93_name" />
-
-        <ImageView
-            android:id="@+id/pe619_name"
-            android:layout_width="wrap_content"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/pe619"
-            android:layout_marginTop="34dp"
-            android:background="@drawable/pe619_font" />
-
-        <ImageView
-            android:id="@+id/twitterpe619"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/twitter_logo"
-            android:contentDescription="@string/pe619" />
-
-        <ImageView
-            android:id="@+id/bloggerpe619"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/bloggerlogo"
-            android:contentDescription="@string/pe619" />
-
-        <ImageView
-            android:id="@+id/dailype619"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/dailymotion_logo"
-            android:contentDescription="@string/pe619" />
-
-        <ImageButton
-            android:id="@+id/googlepluspe619"
-            android:layout_width="100dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/google_plus"
-            android:contentDescription="@string/pe619" />
-
-        <ImageView
-            android:id="@+id/skj_name"
-            android:layout_width="wrap_content"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/skj_description"
-            android:layout_marginTop="34dp"
-            android:background="@drawable/skj_font" />
-
-        <ImageButton
-            android:id="@+id/facebookskj"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="12sp"
-            android:background="@drawable/facebook_logo"
-            android:contentDescription="@string/sidekickjason" />
-
-        <ImageView
-            android:id="@+id/twitterskj"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/twitter_logo"
-            android:contentDescription="@string/sidekickjason" />
-
-        <ImageView
-            android:id="@+id/bloggerskj"
-            android:layout_width="170dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/bloggerlogo"
-            android:contentDescription="@string/sidekickjason" />
-
-        <ImageButton
-            android:id="@+id/googleplusskj"
-            android:layout_width="100dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8sp"
-            android:background="@drawable/google_plus"
-            android:contentDescription="@string/sidekickjason" />
 
     </LinearLayout>
 </ScrollView>
