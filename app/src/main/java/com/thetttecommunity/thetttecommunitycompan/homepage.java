@@ -20,10 +20,20 @@ public class homepage extends AppCompatActivity {
     private ImageView ivImage2;
     private ImageView ivImage3;
 
+    //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
+
+        Button social = (Button) findViewById(R.id.social_Media);
+        social.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homepage.this, SocialMedaPage.class);
+                startActivity(intent);
+            }
+        });
 
         Button aboutUs = (Button) findViewById(R.id.about_us);
         aboutUs.setOnClickListener(new View.OnClickListener() {
@@ -86,6 +96,14 @@ public class homepage extends AppCompatActivity {
 
     public void goToPastP(View view) {
         goToUrl("https://www.youtube.com/playlist?list=PL2oQR5EQqTgGr6qTtMXLKBqbTEd6PK3vV");
+    }
+
+    public void goToWaitList(View view) {
+        goToUrl("https://tttecommunity.wufoo.com/forms/z153ewir184yych");
+    }
+
+    public void goToWiki(View view) {
+        goToUrl("http://the-ttte-community.wikia.com/wiki/The_TTTE_Community_Wiki");
     }
 
     private void goToUrl(String url) {

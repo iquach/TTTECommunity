@@ -32,11 +32,14 @@
             android:textColor="#fe0505"
             android:textSize="46sp" />
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/DieselD199"
+            android:onClick="goToDiesel"
+            android:clickable="true"
+            android:autoLink="web"
             android:id="@+id/d199"
             android:layout_marginTop="34dp"
             android:textStyle="bold"
@@ -107,11 +110,14 @@
             android:textColor="#030303"
             android:gravity="center_horizontal"/>
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/ee93_name"
+            android:onClick="goToEnterprising"
+            android:clickable="true"
+            android:autoLink="web"
             android:id="@+id/ee93"
             android:layout_marginTop="29dp"
             android:textStyle="bold"
@@ -163,11 +169,14 @@
             android:gravity="center_horizontal"
             android:textColor="#030303" />
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/pe619"
+            android:onClick="goToPengine"
+            android:clickable="true"
+            android:autoLink="web"
             android:id="@+id/pe619"
             android:layout_marginTop="29dp"
             android:textStyle="bold"
@@ -264,11 +273,14 @@
             android:textColor="#020202"
             android:gravity="center_horizontal"/>
 
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/sidekickjason"
+            android:onClick="goToSideKick"
+            android:clickable="true"
+            android:autoLink="web"
             android:id="@+id/skj"
             android:textColor="#f60411"
             android:layout_marginTop="29dp"
@@ -321,6 +333,8 @@
             android:gravity="center_horizontal"/>
 
     </LinearLayout>
+
+    <!--Tex-->
 
     <!--</ScrollView>-->
 
