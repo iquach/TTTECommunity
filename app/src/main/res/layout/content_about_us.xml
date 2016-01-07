@@ -129,7 +129,7 @@
             android:layout_height="215dp"
             android:id="@+id/e393_logo"
             android:contentDescription="@string/ee93_name"
-            android:background="@drawable/ee93logo2"
+            android:background="@drawable/logoee2"
             android:layout_gravity="center_horizontal" />
 
         <TextView
