@@ -2,6 +2,10 @@
     <string name="app_name">The TTTE Community Companion</string>
     <string name="action_settings">Settings</string>
     <string name="app_logo">the ttte community logo</string>
+    <string name="quiz_title">The TTTE Community Quiz Game</string>
+    <string name="description_of_quiz">Featuring questions made by James Mason
+    , Wong Village, Jordangaming101, cgiben, Epiclafiteau, SpongeEngine423, and
+        the admins about The TTTE Community Channel and some questions about the admins.</string>
     <string name="title_activity_about_us">AboutUs</string>
     <string name="title_activity_contact_us">Contact_us</string>
     <string name="Follow_Us_on_Twitter">Follow Us on Twitter</string>
@@ -35,7 +39,7 @@
     <string name="Head_Clip_Judge">Head Clip Judge</string>
     <string name="tutorials">Tutorials</string>
     <string name="contact">Contact</string>
-    <string name="adminquiz">Admin Quiz</string>
+    <string name="adminquiz">The TTTE Quiz</string>
     <string name="facebook">Facebook</string>
     <string name="waitlist">Waitlist</string>
     <string name="wikia">The Official Wikia</string>
@@ -51,4 +55,5 @@
         we are broadcasting on new original Thomas and Friends
         series made with Tomy TrackMaster engines.</string>
     <string name="title_activity_social_meda_page">SocialMedaPage</string>
+    <string name="title_activity_loadingscreenofquiz">loadingscreenofquiz</string>
 </resources>
