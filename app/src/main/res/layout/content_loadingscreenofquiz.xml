@@ -24,7 +24,7 @@
         android:textStyle="bold"
         android:gravity="center_horizontal"
         android:textSize="35sp"
-        android:background="#4affffff" />
+        android:background="#ffffff" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,12 +40,12 @@
         android:background="#e5ffffff" />
 
     <ImageView
-        android:layout_width="210dp"
-        android:layout_height="150dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:id="@+id/button_to_playnow"
         android:contentDescription="@string/quiz_title"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="94dp" />
+        android:layout_marginTop="45dp" />
 
 </RelativeLayout>

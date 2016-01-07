@@ -39,7 +39,7 @@ public class homepage extends AppCompatActivity {
 
         //Goes to loadingscreenofquiz when clicked.
 
-        Button loadingScreen = (Button) findViewById(R.id.button4);
+        Button loadingScreen = (Button) findViewById(R.id.TTTEQUIZ_button);
         loadingScreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
