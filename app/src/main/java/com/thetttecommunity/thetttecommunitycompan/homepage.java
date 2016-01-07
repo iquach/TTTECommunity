@@ -26,11 +26,24 @@ public class homepage extends AppCompatActivity {
             }
         });
 
+        //Goes to about us page when clicked.
+
         Button aboutUs = (Button) findViewById(R.id.about_us);
         aboutUs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(homepage.this, AboutUs.class);
+                startActivity(intent);
+            }
+        });
+
+        //Goes to loadingscreenofquiz when clicked.
+
+        Button loadingScreen = (Button) findViewById(R.id.button4);
+        loadingScreen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homepage.this, loadingscreenofquiz.class);
                 startActivity(intent);
             }
         });

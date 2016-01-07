@@ -73,8 +73,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="54dp"
-        android:layout_toStartOf="@+id/button3"
-        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/contact_button"
+        android:layout_toLeftOf="@+id/contact_button"
         android:background="#f20505"
         android:textColor="#f8e808" />
 
@@ -86,13 +86,13 @@
         android:layout_height="wrap_content"
         android:text="@string/tutorials"
         android:id="@+id/tutorials_page_link"
-        android:layout_above="@+id/button3"
+        android:layout_above="@+id/contact_button"
         android:textColor="#fefdfd"
         android:background="#12a23b"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignRight="@+id/contact_button"
+        android:layout_alignEnd="@+id/contact_button"
+        android:layout_alignLeft="@+id/contact_button"
+        android:layout_alignStart="@+id/contact_button" />
 
     <!--Contact Button-->
 
@@ -101,12 +101,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/contact"
-        android:id="@+id/button3"
+        android:id="@+id/contact_button"
         android:layout_alignTop="@+id/about_us"
         android:layout_alignLeft="@+id/twitter_button"
         android:layout_alignStart="@+id/twitter_button"
-        android:layout_toLeftOf="@+id/button4"
-        android:layout_toStartOf="@+id/button4"
+        android:layout_toLeftOf="@+id/TTTEQUIZ_button"
+        android:layout_toStartOf="@+id/TTTEQUIZ_button"
         android:textColor="#fefafa"
         android:background="#dc8306" />
 
@@ -117,8 +117,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/adminquiz"
-        android:id="@+id/button4"
-        android:layout_alignBottom="@+id/button3"
+        android:id="@+id/TTTEQUIZ_button"
+        android:layout_alignBottom="@+id/contact_button"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/twitter_button"
@@ -159,7 +159,7 @@
         android:autoLink="web"
         android:background="#fef901"
         android:textColor="#030000"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/contact_button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toLeftOf="@+id/waitlist"
@@ -179,11 +179,11 @@
         android:textColor="#fefdfd"
         android:background="#dfd50d"
         android:layout_alignTop="@+id/tutorials_page_link"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4"
+        android:layout_alignRight="@+id/TTTEQUIZ_button"
+        android:layout_alignEnd="@+id/TTTEQUIZ_button"
         android:layout_toRightOf="@+id/tutorials_page_link"
         android:layout_toEndOf="@+id/tutorials_page_link"
-        android:layout_above="@+id/button3" />
+        android:layout_above="@+id/contact_button" />
 
     <!--The Official Wikia-->
 
@@ -198,7 +198,7 @@
         android:id="@+id/wikia"
         android:textColor="#fefdfd"
         android:background="#b80ddf"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/TTTEQUIZ_button"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_toRightOf="@+id/waitlist"
@@ -216,10 +216,10 @@
         android:id="@+id/waitlist"
         android:background="#1305b0"
         android:textColor="#ffffff"
-        android:layout_below="@+id/button3"
-        android:layout_toLeftOf="@+id/button4"
-        android:layout_toStartOf="@id/button4"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_below="@+id/contact_button"
+        android:layout_toLeftOf="@+id/TTTEQUIZ_button"
+        android:layout_toStartOf="@id/TTTEQUIZ_button"
+        android:layout_alignLeft="@+id/contact_button"
+        android:layout_alignStart="@+id/contact_button" />
 
 </RelativeLayout>
