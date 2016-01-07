@@ -20,10 +20,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <data
-                    android:scheme="http"
-                    android:host="www.thetttecommunity.com"
-                    android:pathPrefix="/thetttecommunity" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
