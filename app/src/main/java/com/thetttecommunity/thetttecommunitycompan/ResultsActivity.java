@@ -16,6 +16,7 @@ public class ResultsActivity extends Activity {
         //get text view
         TextView t=(TextView)findViewById(R.id.textResult);
         //get score
+
         Bundle b = getIntent().getExtras();
         int score= b.getInt("score");
         //display score

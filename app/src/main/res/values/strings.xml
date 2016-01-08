@@ -6,6 +6,23 @@
     <string name="description_of_quiz">Featuring questions made by James Mason
     , Wong Village, Jordangaming101, cgiben, Epiclafiteau, SpongeEngine423, and
         the admins about The TTTE Community Channel.</string>
+    <string name="dev_des">Application developed by Michael Abercrombie, Shawn Idahosa, and
+    Ivan Quach</string>
+    <string name="dev_team">Dev Team</string>
+    <string name="james_mason">What was the one thing the Community did in order to keep
+        the TAB project consistent? by James Mason</string>
+    <string name="wong_village">Who is the former admin of the ttte community? by Wong Village
+    </string>
+    <string name="jordongaming101">What was the first mini-remake uploaded
+        to Youtube? by jordangaming101</string>
+    <string name="homepage_str">HomePage</string>
+    <string name="cgiben">Which two episodes were chosen for
+        the second community project? by cgiben</string>
+    <string name="epicla">What was the first remake submitted to the channel? by Epiclafiteau
+    </string>
+    <string name="spongeengine423">What was the first community
+        remake to not have Thomas as one of the characters?    by SpongeEngine423</string>
+    <string name="credit">Credits</string>
     <string name="continue_to_credits">Continue</string>
     <string name="title_activity_about_us">AboutUs</string>
     <string name="title_activity_contact_us">Contact_us</string>
