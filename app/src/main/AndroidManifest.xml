@@ -44,6 +44,10 @@
         <activity
             android:name=".loadingscreenofquiz"
             android:label="@string/title_activity_loadingscreenofquiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuizCredits"
+            android:label="@string/title_activity_quiz_credits"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

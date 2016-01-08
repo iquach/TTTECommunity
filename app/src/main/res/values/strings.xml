@@ -5,7 +5,7 @@
     <string name="quiz_title">The TTTE Community Quiz Game</string>
     <string name="description_of_quiz">Featuring questions made by James Mason
     , Wong Village, Jordangaming101, cgiben, Epiclafiteau, SpongeEngine423, and
-        the admins about The TTTE Community Channel and some questions about the admins.</string>
+        the admins about The TTTE Community Channel.</string>
     <string name="title_activity_about_us">AboutUs</string>
     <string name="title_activity_contact_us">Contact_us</string>
     <string name="Follow_Us_on_Twitter">Follow Us on Twitter</string>
@@ -56,4 +56,5 @@
         series made with Tomy TrackMaster engines.</string>
     <string name="title_activity_social_meda_page">SocialMedaPage</string>
     <string name="title_activity_loadingscreenofquiz">loadingscreenofquiz</string>
+    <string name="title_activity_quiz_credits">QuizCredits</string>
 </resources>
