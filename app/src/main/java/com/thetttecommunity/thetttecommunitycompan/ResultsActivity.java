@@ -1,8 +1,11 @@
 package com.thetttecommunity.thetttecommunitycompan;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -11,6 +14,18 @@ public class ResultsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
+
+        //Continue button that goes to the results page.
+
+        Button goToResults = (Button) findViewById(R.id.continue_Button);
+        goToResults.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ResultsActivity.this, QuizCredits.class);
+                startActivity(intent);
+            }
+        });
+
         //get rating bar object
         TextView user_score = (TextView) findViewById(R.id.score_user);
         //get text view
