@@ -1,11 +1,13 @@
 package com.thetttecommunity.thetttecommunitycompan;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
@@ -16,6 +18,15 @@ public class loadingscreenofquiz extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loadingscreenofquiz);
+
+        Button social = (Button) findViewById(R.id.button_to_playnow);
+        social.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(loadingscreenofquiz.this, quizscreen.class);
+                startActivity(intent);
+            }
+        });
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
 //
@@ -28,9 +39,6 @@ public class loadingscreenofquiz extends AppCompatActivity {
 //            }
 //        });
 
-        ImageView iv1 = (ImageView) findViewById(R.id.button_to_playnow);
-        Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
-                "patsviper46/playnowbutton_zpspopggm1p.png").into(iv1);
     }
 
 }
