@@ -102,8 +102,8 @@
         android:layout_alignTop="@+id/about_us"
         android:layout_alignLeft="@+id/quiz_button"
         android:layout_alignStart="@+id/quiz_button"
-        android:layout_toLeftOf="@+id/Twitter_button"
-        android:layout_toStartOf="@+id/Twitter_button"
+        android:layout_toLeftOf="@+id/twitter_button"
+        android:layout_toStartOf="@+id/twitter_button"
         android:textColor="#fefafa"
         android:background="#dc8306" />
 
@@ -114,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Follow_Us_on_Twitter"
-        android:id="@+id/Twitter_button"
+        android:id="@+id/twitter_button"
         android:onClick="goToTwitter"
         android:clickable="true"
         android:autoLink="web"
@@ -179,8 +179,8 @@
         android:textColor="#fefdfd"
         android:background="#dfd50d"
         android:layout_alignTop="@+id/tutorials_page_link"
-        android:layout_alignRight="@+id/Twitter_button"
-        android:layout_alignEnd="@+id/Twitter_button"
+        android:layout_alignRight="@+id/twitter_button"
+        android:layout_alignEnd="@+id/twitter_button"
         android:layout_toRightOf="@+id/tutorials_page_link"
         android:layout_toEndOf="@+id/tutorials_page_link"
         android:layout_above="@+id/contact_button" />
@@ -198,7 +198,7 @@
         android:id="@+id/wikia"
         android:textColor="#fefdfd"
         android:background="#b80ddf"
-        android:layout_below="@+id/Twitter_button"
+        android:layout_below="@+id/twitter_button"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_toRightOf="@+id/waitlist"
@@ -217,8 +217,8 @@
         android:background="#1305b0"
         android:textColor="#ffffff"
         android:layout_below="@+id/contact_button"
-        android:layout_toLeftOf="@+id/Twitter_button"
-        android:layout_toStartOf="@id/Twitter_button"
+        android:layout_toLeftOf="@+id/twitter_button"
+        android:layout_toStartOf="@id/twitter_button"
         android:layout_alignLeft="@+id/contact_button"
         android:layout_alignStart="@+id/contact_button" />
 

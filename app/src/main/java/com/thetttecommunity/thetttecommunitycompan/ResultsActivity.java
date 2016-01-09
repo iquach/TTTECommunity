@@ -53,7 +53,7 @@ public class ResultsActivity extends Activity {
                 break;
             case 8: t.setText("All you need is some determination - Percy in Percy takes a plunge");
                 break;
-            case 9: t.setText("You seem to be stuck on Gordon's Hill.");
+            case 9: t.setText("You seem to be stuck on Gordon's Hill. You can do better.");
                 break;
             case 10:
             case 11: t.setText("Pretty Good Mighty YouTuber! Thomas is Proud!");
@@ -61,9 +61,9 @@ public class ResultsActivity extends Activity {
             case 12:
             case 13: t.setText("Potential Admin Material! You know your history!");
                 break;
-            case 14:t.setText("Admin Material! A new coat a paint for you!");
+            case 14:t.setText("A new coat a paint for you!");
                 break;
-            case 15:t.setText("Are you the Founder? 100%!!!");
+            case 15:t.setText("You are a really useful engine! 100%!!!");
                 break;
         }
     }

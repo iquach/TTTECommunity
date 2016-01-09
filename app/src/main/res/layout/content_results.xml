@@ -34,7 +34,7 @@
             android:gravity="center_horizontal"
             android:textStyle="bold"
             android:textSize="26sp"
-            android:textColor="#029b12" />
+            android:textColor="#02149b" />
 
         <TextView
         android:id="@+id/textResult"
@@ -44,7 +44,7 @@
         android:text="Large Text"
             android:layout_marginTop="24dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-            android:background="#eae9e9"
+            android:background="#fefefe"
             android:layout_weight="0.03"
             android:textColor="#030303"
             android:layout_gravity="center_horizontal" />

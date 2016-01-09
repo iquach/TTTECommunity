@@ -13,18 +13,19 @@
     tools:showIn="@layout/activity_quizscreen"
     android:background="@drawable/tracks1">
 
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="QUESTION"
         android:textAppearance="?android:attr/textAppearanceLarge"
-
+        android:gravity="center_horizontal"
         android:background="#ffffff"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <RadioGroup
         android:id="@+id/radioBro"
@@ -42,9 +43,9 @@
             android:layout_marginTop="49dp"
             android:checked="true"
             android:text="Radiobutton1"
-            android:background="#fb0f0f"
-            android:textColor="#fdf002"
-            android:textSize="20dp" />
+            android:background="#0461f5"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
 
         <!--android:onClick="chooseAnswer"-->
 
@@ -54,48 +55,40 @@
             android:layout_height="wrap_content"
             android:text="Radiobutton2"
             android:checked="false"
-            android:background="#06b609"
-            android:textColor="#ffffff"
-            android:textSize="20dp" />
+            android:background="#fefffe"
+            android:textColor="#040404"
+            android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="radiobutton3"
-            android:background="#048ff9"
+            android:background="#0461f5"
             android:textColor="#ffffff"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="radiobutton4"
-            android:background="#141313"
-            android:textColor="#feed2f"
-            android:textSize="20dp" />
+            android:background="#fefefe"
+            android:textColor="#040403"
+            android:textSize="20sp" />
 
     </RadioGroup>
 
- <!--   <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next_pls"
-        android:id="@+id/next_button"
-        android:layout_below="@+id/radioBro"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView"
-        android:layout_marginTop="56dp" />-->
 
     <ImageButton
         android:id="@+id/next_button"
-        android:layout_width="200dp"
-        android:layout_height="95dp"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/ccnext"
+        android:layout_marginTop="61dp"
+        android:contentDescription="@string/audio_director"
         android:layout_below="@+id/radioBro"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="56dp" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
