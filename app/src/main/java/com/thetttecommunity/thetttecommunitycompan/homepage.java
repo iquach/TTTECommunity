@@ -48,6 +48,8 @@ public class homepage extends AppCompatActivity {
             }
         });
 
+        //Goes to the contact us page.
+
         Button contactUs = (Button) findViewById(R.id.contact_button);
         contactUs.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +58,8 @@ public class homepage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Goes to the tutorial page.
 
         Button tutorailsbutton = (Button) findViewById(R.id.tutorials_page_link);
         tutorailsbutton.setOnClickListener(new View.OnClickListener() {
