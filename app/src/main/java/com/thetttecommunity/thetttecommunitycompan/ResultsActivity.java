@@ -39,13 +39,17 @@ public class ResultsActivity extends Activity {
         switch (score)
         {
             case 0: t.setText("Yikes!!!");
+                break;
             case 1: t.setText("You have disappointed the Sir Topham Hatt!");
                 break;
             case 2: t.setText("Bust My Buffers! Better Luck Next Time");
                 break;
-            case 3:
-            case 4:
-            case 5: t.setText("You have seem to been in accident. Try the quiz again :(");
+            case 3: t.setText("Poor Henry!");
+                break;
+            case 4: t.setText("Gordon is disappointed!");
+                break;
+            case 5: t.setText("The Troublesome trucks have gotten you into an accident. " +
+                    "Try the quiz again :(");
                 break;
             case 6: t.setText("Not bad at least you are clean - The Diesel in Bowled Out");
                 break;
@@ -55,15 +59,17 @@ public class ResultsActivity extends Activity {
                 break;
             case 9: t.setText("You seem to be stuck on Gordon's Hill. You can do better.");
                 break;
-            case 10:
+            case 10: t.setText("At least you are over Gordon's Hill. Good Work.");
+                break;
             case 11: t.setText("Pretty Good Mighty YouTuber! Thomas is Proud!");
                 break;
-            case 12:
+            case 12: t.setText("The Fat Controller is Proud!");
+                break;
             case 13: t.setText("Potential Admin Material! You know your history!");
                 break;
             case 14:t.setText("A new coat a paint for you!");
                 break;
-            case 15:t.setText("You are a really useful engine! 100%!!!");
+            case 15:t.setText("You are a really useful engine! 100%!!! A Find Piece of Work!");
                 break;
         }
     }
