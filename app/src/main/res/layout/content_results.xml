@@ -10,7 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.tttecommunityquizgame.ResultsActivity"
-    tools:showIn="@layout/activity_results">
+    tools:showIn="@layout/activity_results"
+    android:background="@drawable/tracks1">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -29,14 +30,17 @@
             android:text="Large Text"
             android:id="@+id/score_user"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="0.12" />
+            android:layout_weight="0.12"
+            android:background="#ffffff" />
 
         <TextView
         android:id="@+id/textResult"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="#eae9e9"
+            android:layout_weight="0.14" />
 
         <Button
             android:layout_width="200dp"

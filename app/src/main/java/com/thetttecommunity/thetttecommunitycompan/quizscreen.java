@@ -8,9 +8,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,7 +29,7 @@ public class quizscreen extends Activity {
     int questionID = 0;
     Questions curr;
     TextView questionText;
-    Button gotoNext;
+    ImageButton gotoNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +39,7 @@ public class quizscreen extends Activity {
         //setSupportActionBar(toolbar);
 
         DataBaseHelper dbHepler = new DataBaseHelper(this);
-        ;
+
         listofQuestions = dbHepler.getAllQuestions();
         curr = listofQuestions.get(questionID);
         questionText = (TextView) findViewById(R.id.textView);
@@ -46,7 +49,9 @@ public class quizscreen extends Activity {
         button3 = (RadioButton)findViewById(R.id.radioButton3);
         button4 = (RadioButton)findViewById(R.id.radioButton4);
 
-        gotoNext = (Button)findViewById(R.id.next_button);
+        gotoNext = (ImageButton)findViewById(R.id.next_button);
+        /*Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
+                "patsviper46/ccnext_zpsnuf6oaow.png").into(R.id.next_button)*/
         setQuestionView();
         gotoNext.setOnClickListener(new View.OnClickListener() {
             @Override
