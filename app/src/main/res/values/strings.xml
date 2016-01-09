@@ -29,7 +29,7 @@
     </string>
     <string name="basic_title">Basics to Know for a Community Remake</string>
     <string name="remakeaclip">Remaking a Clip</string>
-    <string name="yt_remakeaclip">How to Remake a clip V2</string>
+    <string name="yt_remakeaclip">How to Remake a clip V2 Video Click Here!</string>
     <string name="audition_rules">FULL LIST OF RULES/GUIDELINES:</string>
     <string name="aud1">1. No auditions over 40 seconds long!</string>
     <string name="aud2">2. Please try to stick to the sample line given.</string>
@@ -37,15 +37,15 @@
         together and pass it in as an audition.</string>
     <string name="aud4">4. Send all auditions as an UNLISTED video 
         (no private or public videos will be accepted).</string>
-    <string name="aud5">5. Send the video through the YouTube's messaging system
+    <string name="aud5">5. Send the video through the YouTube\'s messaging system
         (Look at the video on how to above).</string>
-    <string name="aud6">6. Don't email us your audition (We may not see)</string>
+    <string name="aud6">6. Don\'t email us your audition (We may not see)</string>
     <string name="aud7">7. You can only audition for one character!</string>
     <string name="aud8">8. Have the rating system enabled!</string>
-    <string name="aud9">9. Follow the video's format for sending in an audition.</string>
+    <string name="aud9">9. Follow the video\'s format for sending in an audition.</string>
     <string name="audition_title">Audition to Voice a Character</string>
-    <string name="how_to_aud">How to Audition to Voice a Character V2</string>
-    <string name="vote_character">How to Vote for Voice Actors V2</string>
+    <string name="how_to_aud">How to Audition to Voice a Character V2 Video Click Here!</string>
+    <string name="vote_character">How to Vote for Voice Actors V2 Video Click Here</string>
     <string name="voting_rules">Voting Rules</string>
     <string name="vote1">Yes you can vote for yourself.</string>
     <string name="vote2">Do not promote your video. (Automatic Disqualification)</string>

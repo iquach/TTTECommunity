@@ -101,8 +101,9 @@
             android:layout_gravity="center_horizontal" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/dieselD_des"
             android:id="@+id/description_199"
@@ -129,7 +130,6 @@
             android:layout_height="215dp"
             android:id="@+id/e393_logo"
             android:contentDescription="@string/ee93_name"
-            android:background="@drawable/logoee2"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -160,12 +160,13 @@
             android:layout_gravity="center_horizontal"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/ee93_des"
             android:id="@+id/ee93des"
             android:layout_marginTop="28dp"
+            android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
             android:textColor="#030303" />
 
@@ -188,7 +189,6 @@
             android:layout_height="215dp"
             android:id="@+id/pe619_logo"
             android:contentDescription="@string/pe619"
-            android:background="@drawable/icon_pe619"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -264,8 +264,9 @@
             android:layout_gravity="center_horizontal"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/pe619_description"
             android:id="@+id/pe619_des"
@@ -292,7 +293,6 @@
             android:layout_height="215dp"
             android:id="@+id/skj_logo"
             android:contentDescription="@string/pe619"
-            android:background="@drawable/skj_logo_icon"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -323,8 +323,9 @@
             android:layout_gravity="center_horizontal"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/skj_description"
             android:id="@+id/skj_des"

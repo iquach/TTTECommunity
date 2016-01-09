@@ -5,6 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 public class AboutUs extends AppCompatActivity {
 
@@ -24,7 +27,28 @@ public class AboutUs extends AppCompatActivity {
 //                        .setAction("Action", null).show();
 //            }
 //        });
+//
+        /*ImageView iv1 = (ImageView) findViewById(R.id.diesel_logo);*/
+        ImageView iv2 = (ImageView) findViewById(R.id.e393_logo);
+        ImageView iv3 = (ImageView) findViewById(R.id.pe619_logo);
+        ImageView iv4 = (ImageView) findViewById(R.id.skj_logo);
+        /*Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
+                "patsviper46/dieseld199_logo_lite_zpsa" +
+                "zgcgbfk.png").fit().centerCrop().into(iv1);*/
+
+        Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
+                "patsviper46/logoee2_zpscdfhc25r.png").fit().centerCrop().into(iv2);
+
+        Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
+                "patsviper46/icon_pe619_zpsmdyekn3o.png").fit().centerCrop().into(iv3);
+
+        Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
+                "patsviper46/skj_logo_icon_zpsi2yzdg1c.png").fit().centerCrop().into(iv4);
     }
+
+
+
+
     public void goToDiesel(View view) {
         goToUrl("https://www.youtube.com/user/DieselD199");
     }

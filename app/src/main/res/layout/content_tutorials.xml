@@ -21,8 +21,9 @@
         android:background="#ffffff">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/basic_title"
         android:gravity="center_horizontal"
@@ -53,16 +54,17 @@
         android:background="#0627fc" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/rules_clips1"
         android:layout_marginTop="16dp"
         android:id="@+id/textView17"
-        android:textColor="#020202" />
+        android:textColor="#020202"
+        android:layout_gravity="center_horizontal" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/rules_clip2"
@@ -72,7 +74,7 @@
             android:textColor="#040404" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/rules_clip3"
@@ -82,7 +84,7 @@
             android:textColor="#040404" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/rules_clip4"
@@ -92,7 +94,7 @@
             android:textColor="#040404" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/rules_clip5"
@@ -102,7 +104,7 @@
             android:textColor="#040404" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/rules_clip6"
@@ -112,7 +114,7 @@
             android:textColor="#040404" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/rules_clip7"
@@ -122,7 +124,7 @@
             android:textColor="#040404" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/rules_clip8"
@@ -131,8 +133,9 @@
             android:layout_gravity="center_horizontal"
             android:textColor="#040404" />
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/audition_title"
             android:id="@+id/textView1"
@@ -152,8 +155,9 @@
             android:background="#0627fc"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud1"
             android:layout_marginTop="16dp"
@@ -161,8 +165,9 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud2"
             android:layout_marginTop="16dp"
@@ -170,8 +175,9 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud3"
             android:layout_marginTop="16dp"
@@ -179,8 +185,9 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud4"
             android:layout_marginTop="16dp"
@@ -188,8 +195,9 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud5"
             android:layout_marginTop="16dp"
@@ -197,25 +205,19 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud6"
             android:layout_marginTop="16dp"
             android:id="@+id/textView31"
             android:textColor="#020202" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/aud6"
-            android:layout_marginTop="16dp"
-            android:id="@+id/textView32"
-            android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud7"
             android:layout_marginTop="16dp"
@@ -223,8 +225,9 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud8"
             android:layout_marginTop="16dp"
@@ -232,8 +235,9 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/aud9"
             android:layout_marginTop="16dp"
@@ -284,8 +288,10 @@
             android:textColor="#020202" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="304dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/vote3"
             android:layout_marginTop="16dp"
