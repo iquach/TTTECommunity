@@ -24,23 +24,30 @@
         android:weightSum="1">
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Large Text"
             android:id="@+id/score_user"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="0.12"
-            android:background="#ffffff" />
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="#029b12" />
 
         <TextView
         android:id="@+id/textResult"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
         android:text="Large Text"
+            android:layout_marginTop="24dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
             android:background="#eae9e9"
-            android:layout_weight="0.14" />
+            android:layout_weight="0.03"
+            android:textColor="#030303"
+            android:layout_gravity="center_horizontal" />
 
         <Button
             android:layout_width="200dp"
@@ -48,11 +55,11 @@
             android:layout_marginTop="35dp"
             android:text="@string/continue_to_credits"
             android:id="@+id/continue_Button"
-            android:layout_gravity="center_horizontal"
             android:textColor="#fefefe"
-            android:textSize="26dp"
+            android:textSize="26sp"
             android:textStyle="bold"
-            android:background="#0400fb" />
+            android:background="#0400fb"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
 </RelativeLayout>

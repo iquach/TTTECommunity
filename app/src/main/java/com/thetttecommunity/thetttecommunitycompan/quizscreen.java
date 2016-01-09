@@ -64,7 +64,7 @@ public class quizscreen extends Activity {
                     score++;
                     Log.d("score", "Your score" + score);
                 }
-                if(questionID<10){
+                if(questionID<15){
                     curr = listofQuestions.get(questionID);
                     setQuestionView();
                 }else{
@@ -79,72 +79,7 @@ public class quizscreen extends Activity {
 
             }
         });
-        //final_result = (TextView)findViewById(R.id.result);
-
-        /*Hides TextView*/
-
-        //final_result.setEnabled(false);
-
-   /*     FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });*/
     }
-
-
-
- /*   private void setQuizText () {
-        if ( listofQuestions.size() > 0 ) {
-            button1.setText("CHOICE1");
-        } else {
-            button1.setText("NOTHIN");
-        }
-
-    }*/
-
-    /*public void chooseAnswer(View view)
-    {
-
-        boolean check = ((RadioButton) view).isChecked();
-
-        *//*Print specific messages for each case*//*
-
-        if (check) {
-
-            switch (view.getId()) {
-
-                case R.id.radioButton:
-                    final_result.setText("You chose CHOICE1");
-                    final_result.setEnabled(true);
-                    break;
-
-                case R.id.radioButton2:
-                    final_result.setText("You chose CHOICE2");
-                    final_result.setEnabled(true);
-                    break;
-
-                case R.id.radioButton3:
-                    final_result.setText("You chose CHOICE3");
-                    final_result.setEnabled(true);
-                    break;
-
-                case R.id.radioButton4:
-                    final_result.setText("You chose CHOICE4");
-                    final_result.setEnabled(true);
-                    break;
-            }
-
-        } else {
-
-            final_result.setEnabled(false);
-
-        }
-
-    }*/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
