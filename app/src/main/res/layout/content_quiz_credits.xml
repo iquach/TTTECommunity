@@ -12,7 +12,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.QuizCredits"
     tools:showIn="@layout/activity_quiz_credits"
-    android:background="#e0dede">
+    android:background="#ffffff">
 
     <LinearLayout
         android:layout_width="fill_parent"

@@ -35,7 +35,7 @@
         android:id="@+id/textView4"
         android:gravity="center_horizontal"
         android:textColor="#030303"
-        android:background="#e5ffffff"
+        android:background="#ffffff"
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

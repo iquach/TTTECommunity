@@ -9,6 +9,9 @@
     <string name="dev_des">Application developed by Michael Abercrombie, Shawn Idahosa, and
     Ivan Quach</string>
     <string name="next_pls">Next</string>
+    <string name="contact_us">Need Help? Contact Us</string>
+    <string name="email">Email us at
+        thetttecommunity@gmail.com</string>
     <string name="playnow">Play Now</string>
     <string name="dev_team">Dev Team</string>
     <string name="title_activity_results">ResultsActivity</string>
@@ -21,8 +24,57 @@
     <string name="homepage_str">HomePage</string>
     <string name="cgiben">Which two episodes were chosen for
         the second community project? by cgiben</string>
+    <string name="prompt_con">Questions, Considerations, Comments, Business Inquiries</string>
     <string name="epicla">What was the first remake submitted to the channel? by Epiclafiteau
     </string>
+    <string name="basic_title">Basics to Know for a Community Remake</string>
+    <string name="remakeaclip">Remaking a Clip</string>
+    <string name="yt_remakeaclip">How to Remake a clip V2</string>
+    <string name="audition_rules">FULL LIST OF RULES/GUIDELINES:</string>
+    <string name="aud1">1. No auditions over 40 seconds long!</string>
+    <string name="aud2">2. Please try to stick to the sample line given.</string>
+    <string name="aud3">3. Do not mix audio from an actual episode and your audio 
+        together and pass it in as an audition.</string>
+    <string name="aud4">4. Send all auditions as an UNLISTED video 
+        (no private or public videos will be accepted).</string>
+    <string name="aud5">5. Send the video through the YouTube's messaging system
+        (Look at the video on how to above).</string>
+    <string name="aud6">6. Don't email us your audition (We may not see)</string>
+    <string name="aud7">7. You can only audition for one character!</string>
+    <string name="aud8">8. Have the rating system enabled!</string>
+    <string name="aud9">9. Follow the video's format for sending in an audition.</string>
+    <string name="audition_title">Audition to Voice a Character</string>
+    <string name="how_to_aud">How to Audition to Voice a Character V2</string>
+    <string name="vote_character">How to Vote for Voice Actors V2</string>
+    <string name="voting_rules">Voting Rules</string>
+    <string name="vote1">Yes you can vote for yourself.</string>
+    <string name="vote2">Do not promote your video. (Automatic Disqualification)</string>
+    <string name="vote3">Do not share the link (of your video) to others
+        (Automatic Disqualification)</string>
+    <string name="vote4">You can share the link of the audition’s playlist.</string>
+    <string name="vote5">No like bots</string>
+    <string name="vote6">We do not count dislikes for votes period.</string>
+    <string name="vote7">Using multiple accounts to like your video is
+        an automatic disqualification.</string>
+    <string name="rules_clips1">1. Clips may be remade in any format, such as with model locomotives
+        (eg. Trackmaster, Bachmann, Hornby etc) in Trainz or in Paint etc. But they must NOT
+        contain any actual Thomas and Friends footage and must be made specially for this project.
+</string>
+    <string name="rules_clip2">2. All remade clips should keep to the original video as best as
+        possible, including sets, locomotives present, camera angles and timing.</string>
+    <string name="rules_clip3">3. All remade clips should be the same length as the original clips
+        PLUS they should all have an extra two seconds of footage on each
+        end of the clip for cutting purposes.</string>
+    <string name="rules_clip4">4. All remade clips must be in 16:9 aspect ratio
+        (the video itself must be a rectangle, not a square).</string>
+    <string name="rules_clip5">5. Audio and titles of any kind are not required.
+        These will be done later by the editing crew.</string>
+    <string name="rules_clip6">6. Please ensure that all remade clips are both
+        well lit and that the camera is steady.</string>
+    <string name="rules_clip7">7. Your hands should NOT be seen. Please use fishing line instead.
+        Also insure that no other people or animals are in the background.</string>
+    <string name="rules_clip8">8. Whilst HD video is not required, please ensure that you film,
+        edit and upload your remade clips in the maximum quality possible.</string>
     <string name="spongeengine423">What was the first community
         remake to not have Thomas as one of the characters?    by SpongeEngine423</string>
     <string name="credit">Credits</string>
@@ -78,4 +130,6 @@
     <string name="title_activity_social_meda_page">SocialMedaPage</string>
     <string name="title_activity_loadingscreenofquiz">loadingscreenofquiz</string>
     <string name="title_activity_quiz_credits">QuizCredits</string>
+    <string name="title_activity_tutorials_page">tutorials_page</string>
+    <string name="title_activity_tutorials">tutorials</string>
 </resources>

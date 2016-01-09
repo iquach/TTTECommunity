@@ -52,10 +52,18 @@
         <activity
             android:name=".ResultsActivity"
             android:label="@string/title_activity_results"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".QuizCredits"
             android:label="@string/title_activity_quiz_credits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contactus_page"
+            android:label="@string/title_activity_contact_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tutorials"
+            android:label="@string/title_activity_tutorials"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

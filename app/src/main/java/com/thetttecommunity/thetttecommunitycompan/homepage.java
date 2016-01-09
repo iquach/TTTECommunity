@@ -47,35 +47,26 @@ public class homepage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button contactUs = (Button) findViewById(R.id.contact_button);
+        contactUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homepage.this, contactus_page.class);
+                startActivity(intent);
+            }
+        });
+
+        Button tutorailsbutton = (Button) findViewById(R.id.tutorials_page_link);
+        tutorailsbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(homepage.this, tutorials.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    // Bottom two lines of code are for the Blue toolbar
-
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-
-    // This is whole method is for the floating mail button.
-
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
-
-/*        ivImage1 = (ImageView) findViewById(R.id.logo);
-
-       Picasso.with(ivImage1.getContext()).load(R.drawable.logo_hd)
-                .into(ivImage1);
-
-        ivImage2 = (ImageView) findViewById(R.id.thomas_face);
-
-        Picasso.with(ivImage2.getContext()).load(R.drawable.yt)
-                .into(ivImage2);*/
-
-//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
