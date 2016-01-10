@@ -38,6 +38,9 @@
 
         <ImageButton
             android:id="@+id/facebookDiesel"
+            android:onClick="DieselFacebook"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -46,6 +49,9 @@
 
         <ImageButton
             android:id="@+id/twitterdiesel"
+            android:onClick="DieselTwitter"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -54,6 +60,9 @@
 
         <ImageButton
             android:id="@+id/insta"
+            android:onClick="DieselInsta"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -62,6 +71,9 @@
 
         <ImageButton
             android:id="@+id/tumbler"
+            android:onClick="DieselTumblr"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -71,6 +83,9 @@
 
         <ImageButton
             android:id="@+id/googleplusdiesel"
+            android:onClick="DieselGPlus"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="100dp"
             android:layout_height="75dp"
             android:layout_gravity="center_horizontal"
@@ -88,6 +103,9 @@
 
         <ImageButton
             android:id="@+id/facebookee93"
+            android:onClick="EEFacebook"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -96,6 +114,9 @@
 
         <ImageButton
             android:id="@+id/twitteree93"
+            android:onClick="EETwitter"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -104,6 +125,9 @@
 
         <ImageButton
             android:id="@+id/wikiaee93"
+            android:onClick="EEWikia"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -112,6 +136,9 @@
 
         <ImageButton
             android:id="@+id/googleplusee93"
+            android:onClick="EEGPlus"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="100dp"
             android:layout_height="75dp"
             android:layout_gravity="center_horizontal"
@@ -128,6 +155,9 @@
 
         <ImageButton
             android:id="@+id/twitterpe619"
+            android:onClick="PETwitter"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -136,6 +166,9 @@
 
         <ImageButton
             android:id="@+id/bloggerpe619"
+            android:onClick="PEBlogger"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -144,6 +177,9 @@
 
         <ImageButton
             android:id="@+id/dailype619"
+            android:onClick="PEDaily"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -152,6 +188,9 @@
 
         <ImageButton
             android:id="@+id/googlepluspe619"
+            android:onClick="PEGPlus"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="100dp"
             android:layout_height="75dp"
             android:layout_gravity="center_horizontal"
@@ -168,6 +207,9 @@
 
         <ImageButton
             android:id="@+id/facebookskj"
+            android:onClick="SKJFacebook"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -176,6 +218,9 @@
 
         <ImageButton
             android:id="@+id/twitterskj"
+            android:onClick="SKJTwitter"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -184,6 +229,9 @@
 
         <ImageButton
             android:id="@+id/bloggerskj"
+            android:onClick="SKJBlogger"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
@@ -192,12 +240,14 @@
 
         <ImageButton
             android:id="@+id/googleplusskj"
+            android:onClick="SKJGPlus"
+            android:clickable="true"
+            android:autoLink="web"
             android:layout_width="100dp"
             android:layout_height="75dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
             android:contentDescription="@string/sidekickjason" />
-
 
     </LinearLayout>
 </ScrollView>
