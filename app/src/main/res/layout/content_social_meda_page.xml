@@ -36,61 +36,81 @@
             android:contentDescription="@string/DieselD199"
             android:layout_marginTop="34dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/facebookDiesel"
             android:onClick="DieselFacebook"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:layout_width="220dp"
+            android:text="@string/facebook"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12sp"
-            android:contentDescription="@string/DieselD199" />
+            android:contentDescription="@string/DieselD199"
+            android:background="#fe0101"
+            android:textColor="#fff709"
+            android:textSize="22sp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/twitterdiesel"
             android:onClick="DieselTwitter"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:layout_width="220dp"
+            android:text="@string/Follow_Us_on_Twitter"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/DieselD199" />
+            android:contentDescription="@string/DieselD199"
+            android:background="#fe0101"
+            android:textColor="#fff709"
+            android:textSize="22sp"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/insta"
             android:onClick="DieselInsta"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:text="@string/instagram"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/DieselD199" />
+            android:contentDescription="@string/DieselD199"
+            android:background="#fe0101"
+            android:textColor="#fff709"
+            android:textSize="22sp"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/tumbler"
             android:onClick="DieselTumblr"
             android:clickable="true"
+            android:text="@string/Tumbler"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/DieselD199" />
+            android:contentDescription="@string/DieselD199"
+            android:background="#fe0101"
+            android:textColor="#fff709"
+            android:textSize="22sp"/>
 
 
-        <ImageButton
+        <Button
             android:id="@+id/googleplusdiesel"
             android:onClick="DieselGPlus"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="100dp"
-            android:layout_height="75dp"
+            android:text="@string/googleplusname"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/DieselD199" />
+            android:contentDescription="@string/DieselD199"
+            android:background="#fe0101"
+            android:textColor="#fff709"
+            android:textSize="22sp"/>
 
 
         <ImageView
@@ -101,49 +121,61 @@
             android:contentDescription="@string/DieselD199"
             android:layout_marginTop="34dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/facebookee93"
             android:onClick="EEFacebook"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:layout_width="220dp"
+            android:text="@string/facebook2"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12sp"
-            android:contentDescription="@string/ee93_name" />
+            android:contentDescription="@string/ee93_name"
+            android:textSize="22sp"
+            android:background="#51da07" />
 
-        <ImageButton
+        <Button
             android:id="@+id/twitteree93"
             android:onClick="EETwitter"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:layout_width="220dp"
+            android:text="@string/Follow_Us_on_Twitter"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/ee93_name" />
+            android:contentDescription="@string/ee93_name"
+            android:textSize="22sp"
+            android:background="#51da07"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/wikiaee93"
             android:onClick="EEWikia"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:text="@string/Wikiapage"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/ee93_name" />
+            android:contentDescription="@string/ee93_name"
+            android:textSize="22sp"
+            android:background="#51da07"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/googleplusee93"
             android:onClick="EEGPlus"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="100dp"
-            android:layout_height="75dp"
+            android:layout_width="220dp"
+            android:text="@string/googleplusname"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/ee93_name" />
+            android:contentDescription="@string/ee93_name"
+            android:textSize="22sp"
+            android:background="#51da07"/>
 
         <ImageView
             android:id="@+id/pe619_name"
@@ -153,49 +185,65 @@
             android:contentDescription="@string/DieselD199"
             android:layout_marginTop="34dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/twitterpe619"
             android:onClick="PETwitter"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:text="@string/Follow_Us_on_Twitter"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/pe619" />
+            android:contentDescription="@string/pe619"
+            android:background="#13a303"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/bloggerpe619"
             android:onClick="PEBlogger"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:text="@string/blog"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/pe619" />
+            android:contentDescription="@string/pe619"
+            android:background="#13a303"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/dailype619"
             android:onClick="PEDaily"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:text="@string/dailymotion"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/pe619" />
+            android:contentDescription="@string/pe619"
+            android:background="#13a303"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/googlepluspe619"
             android:onClick="PEGPlus"
             android:clickable="true"
+            android:text="@string/googleplusname"
             android:autoLink="web"
-            android:layout_width="100dp"
-            android:layout_height="75dp"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/pe619" />
+            android:contentDescription="@string/pe619"
+            android:background="#13a303"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
 
         <ImageView
             android:id="@+id/skj_name"
@@ -205,49 +253,65 @@
             android:contentDescription="@string/skj_description"
             android:layout_marginTop="34dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/facebookskj"
             android:onClick="SKJFacebook"
             android:clickable="true"
+            android:text="@string/facebook2"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12sp"
-            android:contentDescription="@string/sidekickjason" />
+            android:contentDescription="@string/sidekickjason"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="#0410f0" />
 
-        <ImageButton
+        <Button
             android:id="@+id/twitterskj"
             android:onClick="SKJTwitter"
             android:clickable="true"
+            android:text="@string/Follow_Us_on_Twitter"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/sidekickjason" />
+            android:contentDescription="@string/sidekickjason"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="#0410f0"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/bloggerskj"
             android:onClick="SKJBlogger"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="190dp"
+            android:text="@string/blog"
+            android:layout_width="220dp"
             android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/sidekickjason" />
+            android:contentDescription="@string/sidekickjason"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="#0410f0"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/googleplusskj"
             android:onClick="SKJGPlus"
             android:clickable="true"
             android:autoLink="web"
-            android:layout_width="100dp"
-            android:layout_height="75dp"
+            android:text="@string/googleplusname"
+            android:layout_width="220dp"
+            android:layout_height="55dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8sp"
-            android:contentDescription="@string/sidekickjason" />
+            android:contentDescription="@string/sidekickjason"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="#0410f0"/>
 
     </LinearLayout>
 </ScrollView>

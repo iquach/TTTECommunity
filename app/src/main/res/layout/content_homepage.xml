@@ -18,15 +18,14 @@
     <!--Cloud Thomas Pic-->
 
     <ImageView
-        android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/logo"
         android:src="@drawable/logo_hd"
         android:contentDescription="@string/app_logo"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignRight="@+id/quiz_button"
+        android:layout_alignEnd="@+id/quiz_button" />
 
     <!--Youtube Button-->
 

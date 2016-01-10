@@ -32,6 +32,13 @@
     <string name="yt_remakeaclip">How to Remake a clip V2 Video Click Here!</string>
     <string name="audition_rules">FULL LIST OF RULES/GUIDELINES:</string>
     <string name="aud1">1. No auditions over 40 seconds long!</string>
+    <string name="facebook2">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="blog">Blogger</string>
+    <string name="googleplusname">Google Plus</string>
+    <string name="Wikiapage">Wikia</string>
+    <string name="Tumbler">Tumblr</string>
+    <string name="dailymotion">DailyMotion</string>
     <string name="aud2">2. Please try to stick to the sample line given.</string>
     <string name="aud3">3. Do not mix audio from an actual episode and your audio 
         together and pass it in as an audition.</string>
