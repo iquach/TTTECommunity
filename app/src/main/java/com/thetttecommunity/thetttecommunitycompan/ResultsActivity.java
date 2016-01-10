@@ -40,34 +40,35 @@ public class ResultsActivity extends Activity {
         {
             case 0: t.setText("Yikes!!!");
                 break;
-            case 1: t.setText("You have disappointed the Sir Topham Hatt!");
+            case 1: t.setText("Bust My Buffers! Better Luck Next Time");
                 break;
-            case 2: t.setText("Bust My Buffers! Better Luck Next Time");
+            case 2: t.setText("You have grey wheels! Try again");
                 break;
             case 3: t.setText("Poor Henry!");
                 break;
-            case 4: t.setText("Gordon is disappointed!");
+            case 4: t.setText("O the Indignity!");
                 break;
-            case 5: t.setText("The Troublesome trucks have gotten you into an accident. " +
-                    "Try the quiz again :(");
+            case 5: t.setText("You are cause confusion and delays with these wrong answers!");
                 break;
-            case 6: t.setText("Not bad at least you are clean - The Diesel in Bowled Out");
+            case 6: t.setText("All you need is some determination then maybe you will get more" +
+                    "points.");
                 break;
             case 7: t.setText("Don't give up, show determination!");
                 break;
-            case 8: t.setText("All you need is some determination - Percy in Percy takes a plunge");
+            case 8: t.setText("There are two things of doing things, the great western way " +
+                    "or the wrong way. Choose the GWW");
                 break;
             case 9: t.setText("You seem to be stuck on Gordon's Hill. You can do better.");
                 break;
             case 10: t.setText("At least you are over Gordon's Hill. Good Work.");
                 break;
-            case 11: t.setText("Pretty Good Mighty YouTuber! Thomas is Proud!");
+            case 11: t.setText("Well Done YouTuber, Well Done!");
                 break;
-            case 12: t.setText("The Fat Controller is Proud!");
+            case 12: t.setText("The Fat Controller is Proud! He may give a branch line.");
                 break;
-            case 13: t.setText("Potential Admin Material! You know your history!");
+            case 13: t.setText("A new coat a paint for you!");
                 break;
-            case 14:t.setText("A new coat a paint for you!");
+            case 14:t.setText("The Fat Controller is giving you special coaches!");
                 break;
             case 15:t.setText("You are a really useful engine! 100%!!! A Find Piece of Work!");
                 break;
@@ -78,5 +79,9 @@ public class ResultsActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_homepage, menu);
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
     }
 }
