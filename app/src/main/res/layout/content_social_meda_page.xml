@@ -318,7 +318,7 @@
             android:contentDescription="@string/sidekickjason"
             android:textColor="#ffffff"
             android:textSize="22sp"
-            android:background="#0410f"/>
+            android:background="#0410f0"/>
 
 
     </LinearLayout>
