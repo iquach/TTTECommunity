@@ -18,6 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
         android:id="@+id/logo"
+        android:background="@drawable/logo_hd"
         android:contentDescription="@string/app_logo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

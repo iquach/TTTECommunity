@@ -26,9 +26,9 @@ public class homepage extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        ImageView logo_icon = (ImageView) findViewById(R.id.logo);
+        /*ImageView logo_icon = (ImageView) findViewById(R.id.logo);
         Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
-                "patsviper46/channel_logo_zpsjv2pybtj.png").into(logo_icon);
+                "patsviper46/channel_logo_zpsjv2pybtj.png").into(logo_icon);*/
 
         Button social = (Button) findViewById(R.id.social_Media);
         social.setOnClickListener(new View.OnClickListener() {
