@@ -80,11 +80,16 @@
         android:id="@+id/next_button"
         android:layout_width="220dp"
         android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/ccnext"
-        android:layout_marginTop="56dp"
+
         android:contentDescription="@string/audio_director"
-        android:layout_below="@+id/radioBro"
+
         android:layout_centerHorizontal="true" />
+
+    <!--stuff to add back in-->
+    <!--android:layout_below="@+id/radioBro"-->
+    <!--android:layout_marginTop="56dp"-->
 
 </RelativeLayout>
