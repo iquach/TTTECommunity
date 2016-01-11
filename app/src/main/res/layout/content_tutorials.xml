@@ -59,7 +59,8 @@
         android:id="@+id/button"
         android:layout_gravity="center_horizontal"
         android:textColor="#ffffff"
-        android:background="#0627fc" />
+        android:background="#0627fc"
+        android:onClick="gotoHowToRemakeClip"/>
 
     <TextView
         android:layout_width="304dp"
@@ -160,7 +161,8 @@
             android:id="@+id/ytlink2"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
-            android:background="#0627fc"/>
+            android:background="#0627fc"
+            android:onClick="gotoAuditionToVoice"/>
 
         <TextView
             android:layout_width="304dp"
@@ -271,7 +273,8 @@
             android:id="@+id/ytlink3"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
-            android:background="#0627fc"/>
+            android:background="#0627fc"
+            android:onClick="gotoVotingRules"/>
 
         <TextView
             android:layout_width="wrap_content"
