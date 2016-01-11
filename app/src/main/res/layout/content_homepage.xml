@@ -30,8 +30,7 @@
         ads:adSize="BANNER"
         ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp">
+        android:layout_centerHorizontal="true">
     </com.google.android.gms.ads.AdView>
     <!--Youtube Button-->
 
