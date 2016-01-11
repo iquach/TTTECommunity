@@ -42,13 +42,13 @@ public class ResultsActivity extends Activity {
                 break;
             case 1: t.setText("Bust My Buffers! Better Luck Next Time");
                 break;
-            case 2: t.setText("You have grey wheels! Try again");
+            case 2: t.setText("You have grey wheels! Try again!");
                 break;
             case 3: t.setText("Poor Henry!");
                 break;
             case 4: t.setText("O the Indignity!");
                 break;
-            case 5: t.setText("You are cause confusion and delays with these wrong answers!");
+            case 5: t.setText("You are causing confusion and delays with these wrong answers!");
                 break;
             case 6: t.setText("All you need is some determination then maybe you will get more" +
                     "points.");
@@ -64,9 +64,9 @@ public class ResultsActivity extends Activity {
                 break;
             case 11: t.setText("Well Done YouTuber, Well Done!");
                 break;
-            case 12: t.setText("The Fat Controller is Proud! He may give a branch line.");
+            case 12: t.setText("The Fat Controller is Proud! He may give you a branch line.");
                 break;
-            case 13: t.setText("A new coat a paint for you!");
+            case 13: t.setText("Your reward is a new coat a paint!");
                 break;
             case 14:t.setText("The Fat Controller is giving you special coaches!");
                 break;
