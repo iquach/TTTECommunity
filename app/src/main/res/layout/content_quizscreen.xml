@@ -13,7 +13,6 @@
     tools:showIn="@layout/activity_quizscreen"
     android:background="@drawable/tracks1">
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -78,7 +77,6 @@
             android:textSize="20sp" />
 
     </RadioGroup>
-
 
     <ImageButton
         android:id="@+id/next_button"
