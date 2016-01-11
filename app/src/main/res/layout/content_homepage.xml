@@ -23,6 +23,7 @@
         android:layout_centerHorizontal="true" />
 
     <!-- Ad Block -->
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="wrap_content"
@@ -32,6 +33,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true">
     </com.google.android.gms.ads.AdView>
+
     <!--Youtube Button-->
 
     <ImageView
