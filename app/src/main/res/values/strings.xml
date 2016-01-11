@@ -67,25 +67,25 @@
     <string name="vote6">We do not count dislikes for votes period.</string>
     <string name="vote7">Using multiple accounts to like your video is
         an automatic disqualification.</string>
-    <string name="rules_clips1">1. Clips may be remade in any format, such as with model locomotives
-        (eg. Trackmaster, Bachmann, Hornby etc) in Trainz or in Paint etc. But they must NOT
-        contain any actual Thomas and Friends footage and must be made specially for this project.
+    <string name="rules_clips1">1. Clips may be remade in any format, using items such as model locomotives
+        (eg. Trackmaster, Bachmann, Hornby etc.) in Trainz or in Paint etc. But they must NOT
+        contain any actual Thomas and Friends footage, and must be made specially for this project.
 </string>
     <string name="rules_clip2">2. All remade clips should keep to the original video as best as
         possible, including sets, locomotives present, camera angles and timing.</string>
     <string name="rules_clip3">3. All remade clips should be the same length as the original clips
-        PLUS they should all have an extra two seconds of footage on each
-        end of the clip for cutting purposes.</string>
+        and should have an extra two seconds of footage on each
+        end of the clip, for cutting purposes.</string>
     <string name="rules_clip4">4. All remade clips must be in 16:9 aspect ratio
         (the video itself must be a rectangle, not a square).</string>
     <string name="rules_clip5">5. Audio and titles of any kind are not required.
         These will be done later by the editing crew.</string>
     <string name="rules_clip6">6. Please ensure that all remade clips are both
-        well lit and that the camera is steady.</string>
+        well-lit and that the camera is steady.</string>
     <string name="rules_clip7">7. Your hands should NOT be seen. Please use fishing line instead.
         Also insure that no other people or animals are in the background.</string>
-    <string name="rules_clip8">8. Whilst HD video is not required, please ensure that you film,
-        edit and upload your remade clips in the maximum quality possible.</string>
+    <string name="rules_clip8">8. Though HD video is not required, please ensure that you film,
+        edit and upload your remade clips in the highest possible quality.</string>
     <string name="spongeengine423">What was the first community
         remake to not have Thomas as one of the characters?    by SpongeEngine423</string>
     <string name="credit">Credits</string>
