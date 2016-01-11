@@ -8,9 +8,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.squareup.picasso.Picasso;
 
 
 public class homepage extends AppCompatActivity {
@@ -23,6 +25,10 @@ public class homepage extends AppCompatActivity {
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        ImageView logo_icon = (ImageView) findViewById(R.id.logo);
+        Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
+                "patsviper46/channel_logo_zpsjv2pybtj.png").into(logo_icon);
 
         Button social = (Button) findViewById(R.id.social_Media);
         social.setOnClickListener(new View.OnClickListener() {

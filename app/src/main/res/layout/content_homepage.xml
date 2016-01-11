@@ -11,6 +11,17 @@
     android:background="@drawable/tracks1"
     android:id="@+id/background">
 
+    <!--Cloud Thomas Pic-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/logo"
+        android:contentDescription="@string/app_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
     <!-- Ad Block -->
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
@@ -19,21 +30,9 @@
         ads:adSize="BANNER"
         ads:adUnitId="@string/banner_ad_unit_id"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
     </com.google.android.gms.ads.AdView>
-
-    <!--Cloud Thomas Pic-->
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:id="@+id/logo"
-        android:src="@drawable/logo_hd"
-        android:contentDescription="@string/app_logo"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
     <!--Youtube Button-->
 
     <ImageView
@@ -47,7 +46,7 @@
         android:src="@drawable/yt"
         android:layout_above="@+id/quiz_button"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentStart="false"
         android:layout_marginBottom="08dp"
         android:layout_alignRight="@+id/past_projects"
         android:layout_alignEnd="@+id/past_projects" />
