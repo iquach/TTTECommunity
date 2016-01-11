@@ -5,7 +5,6 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.tttecommunityquizgame.ResultsActivity"
     tools:showIn="@layout/activity_results"
@@ -21,9 +20,20 @@
         android:orientation="vertical"
         android:weightSum="1">
 
+        <!--<com.google.android.gms.ads.AdView-->
+            <!--android:id="@+id/adView"-->
+            <!--android:layout_marginTop="05dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--ads:adSize="BANNER"-->
+            <!--ads:adUnitId="ca-app-pub-3940256099942544/6300978111">-->
+        <!--</com.google.android.gms.ads.AdView>-->
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Large Text"
             android:id="@+id/score_user"
@@ -59,15 +69,6 @@
             android:background="#0400fb"
             android:layout_gravity="center_horizontal" />
 
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="252dp"
-            ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
-            android:layout_gravity="center_horizontal">
-        </com.google.android.gms.ads.AdView>
     </LinearLayout>
 
 </RelativeLayout>
