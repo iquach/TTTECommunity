@@ -83,9 +83,7 @@
         android:layout_alignParentBottom="true"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/ccnext"
-
         android:contentDescription="@string/audio_director"
-
         android:layout_centerHorizontal="true" />
 
     <!--stuff to add back in-->
