@@ -18,9 +18,9 @@ public class AboutUs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
 
-       /* AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdView mAdView = (AdView) findViewById(R.id.ad_view);
         AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);*/
+        mAdView.loadAd(adRequest);
 
         /*ImageView iv1 = (ImageView) findViewById(R.id.diesel_logo);*/
         ImageView iv2 = (ImageView) findViewById(R.id.e393_logo);
