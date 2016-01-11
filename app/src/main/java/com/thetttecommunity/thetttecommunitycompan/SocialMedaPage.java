@@ -104,7 +104,7 @@ public class SocialMedaPage extends AppCompatActivity {
     //SKJ Social Media
 
     public void SKJFacebook(View view) {
-        goToUrl("https://www.facebook.com/sidekickjason/");
+        goToUrl("htps://www.facebook.com/sidekickjason/");
     }
     public void SKJTwitter(View view) {
         goToUrl("https://twitter.com/Sidekickjason");
