@@ -95,7 +95,7 @@ public class homepage extends AppCompatActivity {
     // Methods that direct the user to the website.
 
    public void goToYoutube (View view) {
-       goToUrl("https://www.youtube.com/user/thetttecommunity/featured");
+       goToUrl("https://www.youtube.com/watch?v=5ZIsq-mTQ9I");
     }
 
     public void goToTwitter(View view) {
