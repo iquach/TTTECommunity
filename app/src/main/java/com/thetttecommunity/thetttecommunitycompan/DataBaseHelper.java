@@ -66,13 +66,13 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public List<Questions> getAllQuestions() {
         List<Questions> quesList = new ArrayList<>();
 
-        quesList.add(new Questions( "What was the one thing the Community did in order to keep the TAB project consistent?", "To use red James' instead of black ones", "To make Thomas the color green", "Make Gordon the color yellow and black", "Make Sidekickjason voice all the characters"));
+        quesList.add(new Questions( "What was the one thing the Community did in order to keep the TAB project consistent?", "To use red James instead of black ones", "To make Thomas the color green", "Make Gordon the color yellow and black", "Make Sidekickjason voice all the characters"));
         quesList.add(new Questions( "Who was the former admin of the TTTE community?", "Ucwepn", "Wong Village", "Goku", "Gordon the Big Engine"));
         quesList.add(new Questions( "What was the first mini-remake uploaded to Youtube?", "Ghost Train/Percy's Ghostly Trick", "Thomas Gets Tricked/Thomas And Gordon", "Gordon Takes a Tumble", "Edward and The Mail"));
         quesList.add(new Questions( "Which two episodes were chosen for the second community project?", "Down The Mine and Off The Rails/Gordon Takes A Dip", "Percy’s Promise/Percy and The Signal", "The Special Letter/Gordon Goes Foreign", "The World's Strongest Engine/Henry’s Greatest Achievement"));
         quesList.add(new Questions( "What was the first remake submitted to the channel?", "Thomas And Gordon/Thomas Gets Tricked", "Down The Mine", "Thomas and The Stinky Cheese", "Gordon Goes Hollywood"));
         quesList.add(new Questions( "What was the first community remake to not have Thomas as one of the characters?", "Pop Goes The Diesel", "Gordon Goes Bollywood", "Edward’s Exploit", "Percy’s Ghostly Trick"));
-        quesList.add(new Questions( "What year did Welcome to the Thomas the Tank Engine Community Channel! video come out?", "2013", "2012", "2009", "2014"));
+        quesList.add(new Questions( "What year did 'Welcome to the Thomas the Tank Engine Community Channel!' video come out?", "2013", "2012", "2009", "2014"));
         quesList.add(new Questions( "Who are the admins?", "DieselD199, Enterprisingengine93, Percyengine619, and Sidekickjason", "Goku, Vegeta, Piccolo, and Trunks", "Thomas, Percy, James, and Toby", "Diesel, Diesel 10, Arry, and bert"));
         quesList.add(new Questions( "What was song used in the first TTTE music video?", "Thriller", "The Island Song", "Thomas’ Anthem", "Night Train"));
         quesList.add(new Questions( "How many admins are there in the TTTE Community?", "4", "3", "5", "Over 9000"));
