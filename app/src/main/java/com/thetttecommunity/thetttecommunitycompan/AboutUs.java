@@ -12,6 +12,7 @@ import com.google.android.gms.ads.AdView;
 import com.squareup.picasso.Picasso;
 
 public class AboutUs extends AppCompatActivity {
+    ImageView iv1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,8 @@ public class AboutUs extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        /*ImageView iv1 = (ImageView) findViewById(R.id.diesel_logo);*/
+        iv1 = (ImageView) findViewById(R.id.diesel_logo);
+        iv1.setBackgroundResource(R.drawable.dieseld199_logo_lite);
         ImageView iv2 = (ImageView) findViewById(R.id.e393_logo);
         ImageView iv3 = (ImageView) findViewById(R.id.pe619_logo);
         ImageView iv4 = (ImageView) findViewById(R.id.skj_logo);
@@ -38,6 +40,14 @@ public class AboutUs extends AppCompatActivity {
 
         Picasso.with(this).load("http://i1036.photobucket.com/albums/a443/" +
                 "patsviper46/skj_logo_icon_zpsi2yzdg1c.png").fit().centerCrop().into(iv4);
+    }
+
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(AboutUs.this, homepage.class);
+        startActivity(intent);
+        finish();
+        iv1.destroyDrawingCache();
     }
 
 

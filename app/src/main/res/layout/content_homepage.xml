@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
@@ -8,224 +8,140 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.thetttecommunity.thetttecommunitycompan.homepage"
     tools:showIn="@layout/activity_homepage"
-    android:background="@drawable/tracks1"
+    android:background="@drawable/homepage_hd"
     android:id="@+id/background">
 
-    <!-- Ad Block -->
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/banner_ad_unit_id"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
-    </com.google.android.gms.ads.AdView>
+        android:orientation="vertical"
+        android:weightSum="1">
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/imageView2"
-        android:contentDescription="@string/aboutus"
-        android:background="@drawable/logo_hd"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-    <!--Youtube Button-->
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            android:layout_gravity="center_horizontal">
+        </com.google.android.gms.ads.AdView>
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/thomas_face"
-        android:onClick="goToYoutube"
-        android:contentDescription="@string/app_logo"
-        android:clickable="true"
-        android:autoLink="web"
-        android:src="@drawable/yt"
-        android:layout_above="@+id/quiz_button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="false"
-        android:layout_marginBottom="08dp"
-        android:layout_alignRight="@+id/past_projects"
-        android:layout_alignEnd="@+id/past_projects" />
+        <!--Youtube Button-->
 
-    <!--Twitter Button-->
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_home"
+            android:layout_weight="0.27"
+            android:onClick="goToTwitter"
+            android:contentDescription="@string/app_logo"
+            android:clickable="true"
+            android:autoLink="web"
+            android:layout_marginTop="50dp" />
 
-    <Button
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="@string/adminquiz"
-        android:id="@+id/quiz_button"
-        android:background="#04bbf7"
-        android:textColor="#ffffff"
-        android:layout_above="@+id/tutorials_page_link"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="06dp" />
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_current_remake"
+            android:layout_marginTop="-80dp"
+            android:layout_marginLeft="118dp" />
 
-    <!--About Us Button-->
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_tutorial"
+            android:layout_weight="0.27"
+            android:layout_marginLeft="236dp"
+            android:layout_marginTop="-80dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/aboutus"
-        android:id="@+id/about_us"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="54dp"
-        android:layout_toStartOf="@+id/contact_button"
-        android:layout_toLeftOf="@+id/contact_button"
-        android:background="#f20505"
-        android:textColor="#f8e808" />
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_aud"
+            android:layout_weight="0.27"
+            android:layout_marginTop="5dp" />
 
-    <!--Tutorial Button-->
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_wat"
+            android:layout_marginTop="-80dp"
+            android:onClick="goToWaitList"
+            android:contentDescription="@string/app_logo"
+            android:clickable="true"
+            android:autoLink="web"
+            android:layout_marginLeft="118dp" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tutorials"
-        android:id="@+id/tutorials_page_link"
-        android:layout_above="@+id/contact_button"
-        android:textColor="#fefdfd"
-        android:background="#12a23b"
-        android:layout_alignRight="@+id/contact_button"
-        android:layout_alignEnd="@+id/contact_button"
-        android:layout_alignLeft="@+id/contact_button"
-        android:layout_alignStart="@+id/contact_button" />
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_past_project"
+            android:layout_weight="0.27"
+            android:layout_marginLeft="236dp"
+            android:onClick="goToPastP"
+            android:contentDescription="@string/app_logo"
+            android:clickable="true"
+            android:autoLink="web"
+            android:layout_marginTop="-80dp" />
 
-    <!--Contact Button-->
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_quiz"
+            android:layout_weight="0.27"
+            android:layout_marginTop="5dp" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/contact"
-        android:id="@+id/contact_button"
-        android:layout_alignTop="@+id/about_us"
-        android:layout_alignLeft="@+id/quiz_button"
-        android:layout_alignStart="@+id/quiz_button"
-        android:layout_toLeftOf="@+id/twitter_button"
-        android:layout_toStartOf="@+id/twitter_button"
-        android:textColor="#fefafa"
-        android:background="#dc8306" />
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_about"
+            android:layout_marginTop="-80dp"
+            android:layout_marginLeft="118dp" />
 
-    <!--Admin Quiz-->
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_contact"
+            android:layout_weight="0.27"
+            android:layout_marginLeft="236dp"
+            android:layout_marginTop="-80dp" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Follow_Us_on_Twitter"
-        android:id="@+id/twitter_button"
-        android:onClick="goToTwitter"
-        android:clickable="true"
-        android:autoLink="web"
-        android:layout_alignBottom="@+id/contact_button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/quiz_button"
-        android:layout_toRightOf="@+id/quiz_button"
-        android:textColor="#fefdfd"
-        android:background="#14e4d9"
-        android:layout_below="@+id/tutorials_page_link" />
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="192dp"
+            android:id="@+id/thomas_face"
+            android:onClick="goToYoutube"
+            android:contentDescription="@string/app_logo"
+            android:clickable="true"
+            android:autoLink="web"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="13dp" />
 
-    <!--Facebook-->
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_wikia"
+            android:layout_marginTop="50dp"
+            android:onClick="goToWiki"
+            android:contentDescription="@string/app_logo"
+            android:clickable="true"
+            android:autoLink="web"
+            android:layout_marginLeft="50dp" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/facebook"
-        android:id="@+id/facebook"
-        android:onClick="goToFacebook"
-        android:clickable="true"
-        android:autoLink="web"
-        android:layout_alignTop="@+id/tutorials_page_link"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:background="#114ef5"
-        android:textColor="#ffffff"
-        android:layout_alignRight="@+id/about_us"
-        android:layout_alignEnd="@+id/about_us" />
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="80dp"
+            android:id="@+id/cloud_facebook"
+            android:layout_marginTop="-80dp"
+            android:onClick="goToFacebook"
+            android:contentDescription="@string/app_logo"
+            android:clickable="true"
+            android:autoLink="web"
+            android:layout_marginLeft="84dp"
+            android:layout_gravity="center_horizontal" />
 
-    <!--Social Media Page-->
+    </LinearLayout>
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/socialmedia"
-        android:id="@+id/social_Media"
-        android:onClick="goToFacebook"
-        android:clickable="true"
-        android:autoLink="web"
-        android:background="#fef901"
-        android:textColor="#030000"
-        android:layout_below="@+id/contact_button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/waitlist"
-        android:layout_toStartOf="@+id/waitlist" />
-
-    <!--Past Project-->
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/pastprojects"
-        android:onClick="goToPastP"
-        android:gravity="center"
-        android:clickable="true"
-        android:autoLink="web"
-        android:id="@+id/past_projects"
-        android:textColor="#fefdfd"
-        android:background="#dfd50d"
-        android:layout_alignTop="@+id/tutorials_page_link"
-        android:layout_alignRight="@+id/twitter_button"
-        android:layout_alignEnd="@+id/twitter_button"
-        android:layout_toRightOf="@+id/tutorials_page_link"
-        android:layout_toEndOf="@+id/tutorials_page_link"
-        android:layout_above="@+id/contact_button" />
-
-    <!--The Official Wikia-->
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/wikia"
-        android:onClick="goToWiki"
-        android:clickable="true"
-        android:autoLink="web"
-        android:id="@+id/wikia"
-        android:textColor="#fefdfd"
-        android:background="#b80ddf"
-        android:layout_below="@+id/twitter_button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/waitlist"
-        android:layout_toEndOf="@+id/waitlist" />
-
-    <!--Wait List buttons-->
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/waitlist"
-        android:onClick="goToWaitList"
-        android:clickable="true"
-        android:autoLink="web"
-        android:id="@+id/waitlist"
-        android:background="#1305b0"
-        android:textColor="#ffffff"
-        android:layout_below="@+id/contact_button"
-        android:layout_toLeftOf="@+id/twitter_button"
-        android:layout_toStartOf="@id/twitter_button"
-        android:layout_alignLeft="@+id/contact_button"
-        android:layout_alignStart="@+id/contact_button" />
-
-
-
-</RelativeLayout>
+</ScrollView>

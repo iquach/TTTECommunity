@@ -11,8 +11,12 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--This meta-data tag is required to use Google Play Services.-->
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:name=".homepage"
             android:label="@string/app_name"
@@ -26,44 +30,51 @@
         </activity>
         <activity
             android:name=".AboutUs"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SocialMedaPage"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_social_meda_page"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".loadingscreenofquiz"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_loadingscreenofquiz"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".quizscreen"
-            android:screenOrientation="portrait"
             android:label="@string/quiz_title"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ResultsActivity"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_results"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".QuizCredits"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_quiz_credits"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".contactus_page"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_contact_us"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".tutorials"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_tutorials"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CurrentRemakePage"
+            android:label="@string/title_activity_current_remake_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.thetttecommunity.thetttecommunity1.Audition"
+            android:label="@string/title_activity_audition"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

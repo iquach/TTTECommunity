@@ -53,11 +53,10 @@
             android:layout_gravity="center_horizontal" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="204dp"
+            android:layout_height="215dp"
             android:id="@+id/diesel_logo"
             android:contentDescription="@string/DieselD199"
-            android:background="@drawable/dieseld199_logo_lite"
             android:layout_gravity="center_horizontal" />
 
         <TextView

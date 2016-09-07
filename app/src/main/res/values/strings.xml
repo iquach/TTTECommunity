@@ -40,6 +40,17 @@
     <string name="Tumbler">Tumblr</string>
     <string name="dailymotion">DailyMotion</string>
 
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Tutorials</item>
+        <item>The TTTE Quiz</item>
+        <item>Admins Social Media</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+    </string-array>
+
+
     <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
     <string name="banner_ad_unit_id">ca-app-pub-1124479823240796/6969992490</string>
 
@@ -143,4 +154,15 @@
     <string name="title_activity_quiz_credits">QuizCredits</string>
     <string name="title_activity_tutorials_page">tutorials_page</string>
     <string name="title_activity_tutorials">tutorials</string>
+    <string name="title_activity_the_controls">the_controls</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer_list_item">drawer_list_item</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_current_remake_page">CurrentRemakePage</string>
+    <string name="title_activity_audition">Audition</string>
 </resources>

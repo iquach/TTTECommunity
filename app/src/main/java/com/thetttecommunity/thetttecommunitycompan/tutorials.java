@@ -34,4 +34,11 @@ public class tutorials extends AppCompatActivity {
         startActivity(launchBrowser);
     }
 
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(tutorials.this, homepage.class);
+        startActivity(intent);
+        finish();
+    }
+
 }

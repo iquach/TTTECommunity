@@ -124,4 +124,11 @@ public class SocialMedaPage extends AppCompatActivity {
         startActivity(launchBrowser);
     }
 
+    @Override
+    public void onBackPressed(){
+        Intent intent = new Intent(SocialMedaPage.this, homepage.class);
+        startActivity(intent);
+        finish();
+    }
+
 }

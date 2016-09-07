@@ -27,6 +27,7 @@ public class ResultsActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(ResultsActivity.this, QuizCredits.class);
                 startActivity(intent);
+                finish();
             }
         });
 
