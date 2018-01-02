@@ -1,4 +1,4 @@
-# TheTTTECommunityCompan
+# The TTTE Community Companion App
 
 App is currently in the Google Play Store (https://play.google.com/store/apps/details?id=com.thetttecommunity.thetttecommunity1&hl=en)
 
